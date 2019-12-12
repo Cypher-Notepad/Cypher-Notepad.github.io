@@ -1,0 +1,82 @@
+<html>
+<head>
+  <title>Firebase Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>  
+
+<!--
+  <div id="login_div" class="main-div">
+    <h1>Brain Endurance Training Web Admin Panel</h1>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
+    <button onclick="login()">Log in</button>
+  </div>
+
+  <div id="login_div_logo">
+    <img id="img_login_logo" src="resource/logo_uok_colored_transparent.png">
+    </div>
+-->
+  <div id="navigation_bar" class="navbar">
+    <div class="nav_content">
+      <div class="nav_logo">
+        <img id="img_nav_logo" src="resource/logo.png">
+      </div>
+      <div class="nav_buttons">
+        <!--
+        <button class="nav_button" onclick="getUsers()">Show all users</button>
+        <button class="nav_button" onclick="logout()">Logout</button>
+        -->
+
+        <button class="nav_button" onclick="getIntro()">Introduction</button>
+        <button class="nav_button" onclick="showRankingForm()">Download</button>
+        <button class="nav_button" onclick="showRankingForm()">Contact</button>
+      </div>
+      <div id="nav_user"><p>Login prompt</p></div>
+    </div>
+
+    <!--<hr>-->
+  </div>
+
+  <div id="user_div" class="loggedin-div">
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+
+  <!--For OSM -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+   integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+   crossorigin=""></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBbBMxrZ0FPAiFoLGfR8zeBLX38iQvd_Gk",
+      authDomain: "brain-training-app-81a81.firebaseapp.com",
+      databaseURL: "https://brain-training-app-81a81.firebaseio.com",
+      projectId: "brain-training-app-81a81",
+      storageBucket: "brain-training-app-81a81.appspot.com",
+      messagingSenderId: "743227343146"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script type="text/template" data-template>
+    <div id="-div_id-" class='-div_class-'>
+      <div class="box_header">
+        <div class="box_header_content box_title">-title-</div>
+        <div class="box_header_content box_btn_close" onclick="removeDiv(this.parentNode.parentNode.id)">X</div>
+      </div>
+      <div id="-div_content_id-" class="box_content scrollable">
+        -box_content-
+      </div>
+    </div>
+  </script>
+  <script src="index.js"></script>
+</body>
+</html>
