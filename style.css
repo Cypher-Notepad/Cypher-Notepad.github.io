@@ -279,7 +279,7 @@ th {
   width:760px;
 }
 
-#div_intro{
+#div_intro, #div_download{
   width:  30%;
   height: 500px;
 }
@@ -363,3 +363,16 @@ th {
 }
 
 
+
+/*CSS Button Style 2 by indzign.blogspot.com */
+.button2{float:left;list-style:none;text-align:center;width:95%;margin:10px;padding:2px;font-size:14px;clear:both}
+.button2 ul{margin:0;padding:0}
+.button2 li{display:inline;margin:5px;padding:0;list-style:none}
+.button2 li a.demo,.button2 li a.download{position:relative;padding:14px 48px 14px 16px;background:#f39c12;display:block;color:#fff!important;font-weight:700;font-size:14px;text-align:left;text-transform:uppercase;letter-spacing:.2px;border-radius:3px;box-shadow:0 1px rgba(0,0,0,0.1);line-height:normal;transition:all .3s;max-width:170px;margin:auto;overflow:hidden}
+.button2 li a.download{background:#3498db}
+.button2 li a.demo:hover,.button2 li a.download:hover{background:#666}
+.button2 li a.demo:active,.button2 li a.download:active{cursor:pointer}
+.button2 li a.demo:after,.button2 li a.download:after{content:'\F054';background:rgba(0,0,0,0.1);position:absolute;right:0;top:0;font-weight:normal;display:inline-block;margin:0 0 0 10px;color:#fff;padding:16px 24px;font-family:fontawesome;transition:all .3s}
+.button2 li:hover a.demo:after,.button2 li:hover a.download:after{background:transparent;-webkit-animation:bounceright .3s alternate ease infinite;animation:bounceright .3s alternate ease infinite}
+@-webkit-keyframes bounceright{from{-webkit-transform:translateX(0)}to{-webkit-transform:translateX(3px)}}
+@keyframes bounceright{from{transform:translateX(0)}to{transform:translateX(3px)}}

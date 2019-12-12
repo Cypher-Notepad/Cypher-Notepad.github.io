@@ -79,7 +79,7 @@ function getUsers() {
   })
 }
 
-function getIntro(){
+function getIntroTab(){
   htmlDivIntro = boxTemplate
   htmlDivIntro = htmlDivIntro.replace(/-div_id-/g, "div_intro")
   .replace(/-div_class-/g, "div_content_box div_slide_down")
@@ -95,6 +95,31 @@ function getIntro(){
   htmlDivIntro = htmlDivIntro.replace(/-box_content-/g, contentIntro)
   $('#div_intro').remove()
   $('#user_div').append(htmlDivIntro)
+}
+
+function getDownloadTab(){
+  htmlDivDown = boxTemplate
+  htmlDivDown = htmlDivDown.replace(/-div_id-/g, "div_download")
+  .replace(/-div_class-/g, "div_content_box div_slide_down")
+  .replace(/-title-/g, "Download")
+
+  contentDownload = '<div style="text-align: center;">\
+  <ul class="button2">\
+      <li><a class="download" href="https://github.com/LeeDongGeon1996/Crypto-Notepad/releases/download/1.0/Crypto-Notepad_beta.exe" target="_blank">Download Link</a></li>\
+    </ul>\
+  </div>\
+  <div class="clear"></div>'; 
+  
+  htmlDivDown = htmlDivDown.replace(/-box_content-/g, contentDownload)
+  $('#div_intro').remove()
+  $('#div_download').remove()
+  $('#user_div').append(htmlDivDown)
+
+  console.log('show download tab')
+}
+
+function getContactTab(){
+  console.log('sjow contact tab')
 }
 
 function getRecords() {
