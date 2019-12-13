@@ -363,16 +363,200 @@ th {
 }
 
 
+/* Download button from https://freefrontend.com/css-download-buttons */
 
-/*CSS Button Style 2 by indzign.blogspot.com */
-.button2{float:left;list-style:none;text-align:center;width:95%;margin:10px;padding:2px;font-size:14px;clear:both}
-.button2 ul{margin:0;padding:0}
-.button2 li{display:inline;margin:5px;padding:0;list-style:none}
-.button2 li a.demo,.button2 li a.download{position:relative;padding:14px 48px 14px 16px;background:#f39c12;display:block;color:#fff!important;font-weight:700;font-size:14px;text-align:left;text-transform:uppercase;letter-spacing:.2px;border-radius:3px;box-shadow:0 1px rgba(0,0,0,0.1);line-height:normal;transition:all .3s;max-width:170px;margin:auto;overflow:hidden}
-.button2 li a.download{background:#3498db}
-.button2 li a.demo:hover,.button2 li a.download:hover{background:#666}
-.button2 li a.demo:active,.button2 li a.download:active{cursor:pointer}
-.button2 li a.demo:after,.button2 li a.download:after{content:'\F054';background:rgba(0,0,0,0.1);position:absolute;right:0;top:0;font-weight:normal;display:inline-block;margin:0 0 0 10px;color:#fff;padding:16px 24px;font-family:fontawesome;transition:all .3s}
-.button2 li:hover a.demo:after,.button2 li:hover a.download:after{background:transparent;-webkit-animation:bounceright .3s alternate ease infinite;animation:bounceright .3s alternate ease infinite}
-@-webkit-keyframes bounceright{from{-webkit-transform:translateX(0)}to{-webkit-transform:translateX(3px)}}
-@keyframes bounceright{from{transform:translateX(0)}to{transform:translateX(3px)}}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/* psuedo element animations */
+@-webkit-keyframes downloadBounce {
+  to {
+    -webkit-transform: translateY(0px) rotate(50deg);
+  }
+}
+@-moz-keyframes downloadBounce {
+  to {
+    -moz-transform: translateY(0px) rotate(50deg);
+  }
+}
+@keyframes downloadBounce {
+  to {
+    -webkit-transform: translateY(0px) rotate(50deg);
+    -moz-transform: translateY(0px) rotate(50deg);
+    -ms-transform: translateY(0px) rotate(50deg);
+    -o-transform: translateY(0px) rotate(50deg);
+    transform: translateY(0px) rotate(50deg);
+  }
+}
+@-webkit-keyframes downloadBounce2 {
+  to {
+    -webkit-transform: translateY(0px) rotate(-50deg);
+  }
+}
+@-moz-keyframes downloadBounce2 {
+  to {
+    -moz-transform: translateY(0px) rotate(-50deg);
+  }
+}
+@keyframes downloadBounce2 {
+  to {
+    -webkit-transform: translateY(0px) rotate(-50deg);
+    -moz-transform: translateY(0px) rotate(-50deg);
+    -ms-transform: translateY(0px) rotate(-50deg);
+    -o-transform: translateY(0px) rotate(-50deg);
+    transform: translateY(0px) rotate(-50deg);
+  }
+}
+body {
+  background: #D6DCE4;
+}
+
+a {
+}
+
+.download {
+
+  text-decoration: none;
+  text-align: center;
+  padding: 4em 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+  /* rounded corner overflow mask fix */
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+  overflow: hidden;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #007ccd;
+  border: 2px solid #007ccd;
+  color: white;
+  padding: 26px 0 26px 28px;
+  width: 220px;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  transition: all 300ms ease;
+  margin-right: 20px;
+}
+.download span {
+  display: block;
+  position: relative;
+  z-index: 1;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.download span:after, .download span:before {
+  content: '';
+  width: 1px;
+  height: 16px;
+  background: #007ccd;
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  -webkit-transition: all 10ms ease-out;
+  -moz-transition: all 10ms ease-out;
+  transition: all 10ms ease-out;
+  -webkit-transform-origin: center bottom;
+  -moz-transform-origin: center bottom;
+  -ms-transform-origin: center bottom;
+  -o-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: translateY(0) rotate(0deg);
+  -moz-transform: translateY(0) rotate(0deg);
+  -ms-transform: translateY(0) rotate(0deg);
+  -o-transform: translateY(0) rotate(0deg);
+  transform: translateY(0) rotate(0deg);
+  -webkit-animation: 0;
+  -moz-animation: 0;
+  animation: 0;
+}
+.download svg {
+  z-index: 0;
+  fill: white;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(0deg) scale(0.04857);
+  -moz-transform: translate(-50%, -50%) rotate(0deg) scale(0.04857);
+  -ms-transform: translate(-50%, -50%) rotate(0deg) scale(0.04857);
+  -o-transform: translate(-50%, -50%) rotate(0deg) scale(0.04857);
+  transform: translate(-50%, -50%) rotate(0deg) scale(0.04857);
+  -webkit-transition: all 350ms ease-out;
+  -moz-transition: all 350ms ease-out;
+  transition: all 350ms ease-out;
+  height: 700px;
+}
+.download svg#linux {
+  -webkit-transform: translate(-50%, -50%) rotate(0deg) scale(0.05857);
+  -moz-transform: translate(-50%, -50%) rotate(0deg) scale(0.05857);
+  -ms-transform: translate(-50%, -50%) rotate(0deg) scale(0.05857);
+  -o-transform: translate(-50%, -50%) rotate(0deg) scale(0.05857);
+  transform: translate(-50%, -50%) rotate(0deg) scale(0.05857);
+}
+.download:hover {
+  padding: 26px 0;
+  color: #007ccd;
+}
+.download:hover svg {
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(60deg) scale(1);
+  -moz-transform: translate(-50%, -50%) rotate(60deg) scale(1);
+  -ms-transform: translate(-50%, -50%) rotate(60deg) scale(1);
+  -o-transform: translate(-50%, -50%) rotate(60deg) scale(1);
+  transform: translate(-50%, -50%) rotate(60deg) scale(1);
+}
+.download:hover svg#windows {
+  -webkit-transform: translate(-50%, -10%) rotate(60deg) scale(1);
+  -moz-transform: translate(-50%, -10%) rotate(60deg) scale(1);
+  -ms-transform: translate(-50%, -10%) rotate(60deg) scale(1);
+  -o-transform: translate(-50%, -10%) rotate(60deg) scale(1);
+  transform: translate(-50%, -10%) rotate(60deg) scale(1);
+}
+.download:hover svg#linux {
+  -webkit-transform: translate(-120%, -125%) rotate(60deg) scale(6);
+  -moz-transform: translate(-120%, -125%) rotate(60deg) scale(6);
+  -ms-transform: translate(-120%, -125%) rotate(60deg) scale(6);
+  -o-transform: translate(-120%, -125%) rotate(60deg) scale(6);
+  transform: translate(-120%, -125%) rotate(60deg) scale(6);
+}
+.download:hover span {
+  -webkit-transform: translate(0, -10px) scale(1.1);
+  -moz-transform: translate(0, -10px) scale(1.1);
+  -ms-transform: translate(0, -10px) scale(1.1);
+  -o-transform: translate(0, -10px) scale(1.1);
+  transform: translate(0, -10px) scale(1.1);
+  -webkit-transition: -webkit-transform 400ms ease-out 400ms;
+  -moz-transition: -moz-transform 400ms ease-out 400ms;
+  transition: transform 400ms ease-out 400ms;
+}
+.download:hover span:after, .download:hover span:before {
+  opacity: 1;
+  -webkit-transition: all 400ms ease-out 400ms, -webkit-transform 300ms ease-in 100ms;
+  -moz-transition: all 400ms ease-out 400ms, -moz-transform 300ms ease-in 100ms;
+  transition: all 400ms ease-out 400ms, transform 300ms ease-in 100ms;
+}
+.download:hover span:after {
+  -webkit-transform: translateY(7px) rotate(50deg);
+  -moz-transform: translateY(7px) rotate(50deg);
+  -ms-transform: translateY(7px) rotate(50deg);
+  -o-transform: translateY(7px) rotate(50deg);
+  transform: translateY(7px) rotate(50deg);
+  -webkit-animation: downloadBounce 800ms linear alternate infinite;
+  -moz-animation: downloadBounce 800ms linear alternate infinite;
+  animation: downloadBounce 800ms linear alternate infinite;
+}
+.download:hover span:before {
+  -webkit-transform: translateY(7px) rotate(-50deg);
+  -moz-transform: translateY(7px) rotate(-50deg);
+  -ms-transform: translateY(7px) rotate(-50deg);
+  -o-transform: translateY(7px) rotate(-50deg);
+  transform: translateY(7px) rotate(-50deg);
+  -webkit-animation: downloadBounce2 800ms linear alternate infinite;
+  -moz-animation: downloadBounce2 800ms linear alternate infinite;
+  animation: downloadBounce2 800ms linear alternate infinite;
+}
