@@ -103,14 +103,25 @@ function getDownloadTab(){
   .replace(/-div_class-/g, "div_content_box div_slide_down")
   .replace(/-title-/g, "Download")
 
-  contentDownload = '<a href="https://github.com/LeeDongGeon1996/Crypto-Notepad/releases/tag/1.0" class="download">\
+
+  contentDownload = '<div class="div_content_outer">' + 
+                      '<div class="div_content_main">' +
+                        '-content_main-' + 
+                      '</div>' + 
+                      '<div class="div_content_sub">' +
+                        '-content_sub-' + 
+                      '</div>' + 
+                    '</div>';
+  htmlDivDown = htmlDivDown.replace(/-box_content-/g, contentDownload)
+
+  contentMain = '<a id="download_windows" href="https://github.com/LeeDongGeon1996/Crypto-Notepad/releases/tag/1.0" class="download">\
                       <svg height="700px" width="700px" viewBox="0 0 512 499.81" version="1.1" id="windows">\
                         <path d="M0,67.048l207.238-27.137v197.803H0V67.048z M207.238,459.904L0,432.762V262.096h207.238V459.904z M512,\
                         0v237.714H231.619  v-201L512,0z M512,499.81l-280.381-36.714v-201H512V499.81z"></path>\
                       </svg>\
                       <span>Windows</span>\
                     </a>\
-                    <a href="#" class="download">\
+                    <a id="download_linux" href="#" class="download">\
                       <svg height="700px" width="700px" viewBox="0 0 1000 1000" version="1.1" id="linux">\
                         <path d="M369.954 229.402q-6.138 .558 -8.649 5.859t-4.743 5.301q-2.79 .558 -2.79 -2.79 0 \
                         -6.696 10.602 -8.37h5.58zm48.546 7.812q-2.232 .558 -6.417 -3.627t-9.765 -2.511q13.392 \
@@ -191,8 +202,13 @@ function getDownloadTab(){
                       </svg>\
                       <span>Linux</span>\
                     </a>';
+  htmlDivDown = htmlDivDown.replace(/-content_main-/g, contentMain)
+
+  contentSub = '<div> <h2 id="download_tab_sub_title">Download and Protect your data!<h2> </div>';
+  htmlDivDown = htmlDivDown.replace(/-content_sub-/g, contentSub)
   
-  htmlDivDown = htmlDivDown.replace(/-box_content-/g, contentDownload)
+
+
   $('#div_intro').remove()
   $('#div_download').remove()
   $('#user_div').append(htmlDivDown)
