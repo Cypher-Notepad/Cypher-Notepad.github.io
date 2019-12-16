@@ -1,5 +1,4 @@
 body {
-  min-width:550px;
   background: rgb(230, 232, 235);
   padding: 0px;
   margin: 0px auto;
@@ -412,6 +411,9 @@ th {
 @media (max-width: 645px){
   .loggedin-div{
     margin-top: 140px;
+  }
+  .nav_buttons{
+    margin-left:10px;
   }
 
   #div_download{
