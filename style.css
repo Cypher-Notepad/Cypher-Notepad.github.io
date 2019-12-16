@@ -216,7 +216,8 @@ th {
   /*margin-top:70px;
   margin-right:1%;;
   */
-  height:85%;
+  /*height:85%;*/
+  margin-bottom: 30px;
   background-color: #fff;
   position: relative;
   display: inline-block;
@@ -272,7 +273,7 @@ th {
   padding-left: 2%;
   padding-top: 10px;
   */
-  height: 90%;
+  /*height: 90%;*/
   width:98%;
   overflow: auto;
 }
@@ -295,15 +296,18 @@ th {
 
 #div_intro, #div_download{
   width:  60%;
-  height: 500px;
+  overflow:auto;
+  /*height: auto;*/
   display: inline-block;
   text-align: center;
 }
 
+
+
 .div_content_outer{
   width:100%;
-
-  padding-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 20px;
   display: inline-block;
   text-align: center;
 }
