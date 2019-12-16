@@ -23,6 +23,8 @@ input, button {
   margin: 0px auto;
   margin-top: 0px;
   padding: 20px;
+  padding-left:0;
+  padding-right:0;
   display: inline-block;
   text-align: top left;
   
@@ -31,6 +33,7 @@ input, button {
 .loggedin-div{
   float:left;
   width:100%;
+  margin-top: 70px;
   display: none;
   overflow: auto;
 }
@@ -206,8 +209,9 @@ th {
 
 .div_content_box{
   /*float:left;*/ /*important to align div*/
-  margin-top:70px;
+  /*margin-top:70px;
   margin-right:1%;;
+  */
   height:85%;
   background-color: #fff;
   position: relative;
@@ -398,6 +402,12 @@ th {
   100% {
       opacity: 0;
       /*transform: translateX(30px);*/
+  }
+}
+
+@media (max-width: 550px){
+  .loggedin-div{
+    margin-top: 140px;
   }
 }
 
