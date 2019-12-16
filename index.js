@@ -205,7 +205,16 @@ function getDownloadTab(){
   htmlDivDown = htmlDivDown.replace(/-content_main-/g, contentMain)
 
   contentSub = '<div> <h2 id="download_tab_sub_title">Download and Protect your data!<h2> </div>' + 
-                '<div id="download_tab_sub_text"> <h3> Crypto-Notepad 2.0 </h3></div>';
+                '<div id="download_tab_sub_text">' +
+                 '<h3> Crypto-Notepad 2.0 </h3>' +
+                 '<div id="dowload_tab_sub_text_detail">' + 
+                  '<ul class="download_detail">' + 
+                     '<li>Release Date : 11 Nov 2019</li>' + 
+                     '<li>Requirement : The program requires Java Runtime Environment(JRE) 1.8. You can download JRE1.8 ' + 
+                     '<a href="https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">here</a>.</li>' + 
+                  '</ul>' + 
+                  '</div>' + 
+                '</div>';
                 
   htmlDivDown = htmlDivDown.replace(/-content_sub-/g, contentSub)
   

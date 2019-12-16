@@ -409,6 +409,14 @@ th {
   }
 }
 
+
+@media (max-width: 930px){
+  #div_intro, #div_download{
+    width:80%;
+  }
+}
+
+
 @media (max-width: 645px){
   .loggedin-div{
     margin-top: 140px;
@@ -417,7 +425,7 @@ th {
     margin-left:10px;
   }
 
-  #div_download{
+  #div_intro, #div_download{
     width:90%;
   }
 }
