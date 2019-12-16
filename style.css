@@ -183,6 +183,10 @@ th {
 
 }
 
+.nav_buttons{
+  margin-right:100px;
+}
+
 #nav_user{
   position: absolute;
   right: 3px;
@@ -405,9 +409,13 @@ th {
   }
 }
 
-@media (max-width: 550px){
+@media (max-width: 645px){
   .loggedin-div{
     margin-top: 140px;
+  }
+
+  #div_download{
+    width:90%;
   }
 }
 
