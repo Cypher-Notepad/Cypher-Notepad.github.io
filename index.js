@@ -204,7 +204,9 @@ function getDownloadTab(){
                     </a>';
   htmlDivDown = htmlDivDown.replace(/-content_main-/g, contentMain)
 
-  contentSub = '<div> <h2 id="download_tab_sub_title">Download and Protect your data!<h2> </div>';
+  contentSub = '<div> <h2 id="download_tab_sub_title">Download and Protect your data!<h2> </div>' + 
+                '<div id="download_tab_sub_text"> <h3> Crypto-Notepad 2.0 </h3></div>';
+                
   htmlDivDown = htmlDivDown.replace(/-content_sub-/g, contentSub)
   
 
