@@ -2,6 +2,19 @@ var testHeading = document.getElementById("testHeading")
 var boxTemplate = $('[data-template]').html();
 var selectedUser = ""
 var urlPfx = ""
+var scrollDelay = 300
+
+function getYpos(el) {
+  var rect = el.getBoundingClientRect(),
+  scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  return rect.top + scrollTop
+}
+
+function gotoDiv(el){
+  window.scrollTo(0, getYpos(el) - document.getElementById('navigation_bar').clientHeight -5);
+}
+
+
 /*
 firebase.auth().onAuthStateChanged(function(user) {
 
@@ -80,12 +93,20 @@ function getUsers() {
 }
 
 function getIntroTab(){
+
+  var divIntro = document.getElementById("div_intro");
+  if(divIntro){
+    gotoDiv(divIntro);
+    //divIntro.scrollIntoView();
+    return;
+  }
+
   htmlDivIntro = boxTemplate
   htmlDivIntro = htmlDivIntro.replace(/-div_id-/g, "div_intro")
   .replace(/-div_class-/g, "div_content_box div_slide_down")
   .replace(/-title-/g, "Introduction")
 
-  contentIntro = '<img id="img_nav_logo" src="resource/sample_notepad.png">' + 
+  contentIntro = //'<img id="img_nav_logo" src="resource/sample_notepad.png">' + 
                   "<div>It is often necessary to protect important notes in order to prevent them from being accessed by others, " + 
                   "but text editors that offer encryption features are sometimes too complex for users who just want a secure " +  
                   "Notepad alternative. Crypto Notepad stands out through its relatively simple design, as it looks very similar " + 
@@ -93,11 +114,20 @@ function getIntroTab(){
                   "but it remains lightweight and very easy to use.</div>";
 
   htmlDivIntro = htmlDivIntro.replace(/-box_content-/g, contentIntro)
-  $('#div_intro').remove()
+  //$('#div_intro').remove()
   $('#user_div').append(htmlDivIntro)
+  setTimeout(()=>{gotoDiv(document.getElementById("div_intro"))}, scrollDelay);
+  //gotoDiv(document.getElementById("div_intro"));
 }
 
 function getDownloadTab(){
+
+  var divDownload = document.getElementById("div_download");
+  if(divDownload){
+    gotoDiv(divDownload);
+    return;
+  }
+
   htmlDivDown = boxTemplate
   htmlDivDown = htmlDivDown.replace(/-div_id-/g, "div_download")
   .replace(/-div_class-/g, "div_content_box div_slide_down")
@@ -220,15 +250,38 @@ function getDownloadTab(){
   
 
 
-  $('#div_intro').remove()
-  $('#div_download').remove()
+  //$('#div_intro').remove()
+  //$('#div_download').remove()
   $('#user_div').append(htmlDivDown)
-
-  console.log('show download tab')
+  
+  setTimeout(()=>{gotoDiv(document.getElementById("div_download"))}, scrollDelay);
 }
 
 function getContactTab(){
-  console.log('sjow contact tab')
+
+  var divContact = document.getElementById("div_contact");
+  if(divContact){
+    gotoDiv(divContact);
+    return;
+  }
+
+  htmlDivContact = boxTemplate
+  htmlDivContact = htmlDivContact.replace(/-div_id-/g, "div_contact")
+  .replace(/-div_class-/g, "div_content_box div_slide_down")
+  .replace(/-title-/g, "Contact")
+
+  contentContact = '<img id="img_nav_logo" src="resource/logo_title_bar.png">' + 
+                  "<div>It is often necessary to protect important notes in order to prevent them from being accessed by others, " + 
+                  "but text editors that offer encryption features are sometimes too complex for users who just want a secure " +  
+                  "Notepad alternative. Crypto Notepad stands out through its relatively simple design, as it looks very similar " + 
+                  "to the standard Windows Notepad. It offers a few extra features, such as encryption and a customizable UI, " + 
+                  "but it remains lightweight and very easy to use.</div>";
+
+  htmlDivContact = htmlDivContact.replace(/-box_content-/g, contentContact)
+  
+  $('#user_div').append(htmlDivContact)
+  setTimeout(()=>{gotoDiv(document.getElementById("div_contact"))}, scrollDelay);
+  
 }
 
 function getRecords() {

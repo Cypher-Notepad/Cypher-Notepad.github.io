@@ -1,3 +1,13 @@
+img{
+  /*testsetsetsetsetset*/
+  height:20px;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   min-width: 360px;
   background: rgb(230, 232, 235);
