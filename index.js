@@ -270,14 +270,25 @@ function getContactTab(){
   .replace(/-div_class-/g, "div_content_box div_slide_down")
   .replace(/-title-/g, "Contact")
 
-  contentContact = '<img id="img_nav_logo" src="resource/logo_title_bar.png">' + 
-                  "<div>It is often necessary to protect important notes in order to prevent them from being accessed by others, " + 
-                  "but text editors that offer encryption features are sometimes too complex for users who just want a secure " +  
-                  "Notepad alternative. Crypto Notepad stands out through its relatively simple design, as it looks very similar " + 
-                  "to the standard Windows Notepad. It offers a few extra features, such as encryption and a customizable UI, " + 
-                  "but it remains lightweight and very easy to use.</div>";
-
+  
+  contentContact = '<div class="div_content_outer">' + 
+                      '<div class="div_content_main">' +
+                        '-content_main-' + 
+                      '</div>' + 
+                      '<div class="div_content_sub">' +
+                        '-content_sub-' + 
+                      '</div>' + 
+                    '</div>';
   htmlDivContact = htmlDivContact.replace(/-box_content-/g, contentContact)
+
+
+  contentMain = '<a class="icon ion-logo-facebook" href="#" data-tip="I share some interesting posts about Tech in FB!"></a>' + 
+                    '<a class="icon ion-md-mail" href="#" data-tip="Wanna know when I m cooking a new Codepen recipe? Follow me!"></a>' + 
+                    '<a class="icon ion-logo-github" href="#" data-tip="I ve written a lot of lines of code, take a look :)"></a>' + 
+                    '<a class="icon ion-logo-instagram" href="#" data-tip="I do some Pens to have fun!"></a>';
+                   
+
+  htmlDivContact = htmlDivContact.replace(/-content_main-/g, contentMain)
   
   $('#user_div').append(htmlDivContact)
   setTimeout(()=>{gotoDiv(document.getElementById("div_contact"))}, scrollDelay);
