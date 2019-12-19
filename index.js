@@ -261,7 +261,7 @@ function getDownloadTab(){
   console.log(css( document.getElementById('download_tab_sub_title'), 'font-family' ));
   console.log(css( document.getElementById('download_tab_sub_title'), 'font-size' ));
   console.log(css( document.getElementById('download_tab_sub_title'), 'font-style' ));
-  
+
 }
 
 function getContactTab(){
@@ -295,7 +295,10 @@ function getContactTab(){
                 '<a href="javascript:window.open(\'https://www.instagram.com/day12.oct\')"><div class="icon ion-logo-instagram icon-bounce"></div></a>';
   htmlDivContact = htmlDivContact.replace(/-content_main-/g, contentMain)
   
-  contentSub = '<div> <h2 id="download_tab_sub_title">Feel free to contact<h2> </div>' + 
+  contentSub = '<div style="font-size:12px;font-color:#777">' + 
+                  '<h2 id="download_tab_sub_title">Feel free to contact</h2> ' +
+                  'If you have any problems or questions when using the program, please contact developer.' +  
+                '</div>' + 
                 '<div id="download_tab_sub_text">' +
                  '<h3> Crypto-Notepad 2.0 </h3>' +
                  '<div id="dowload_tab_sub_text_detail">' + 
