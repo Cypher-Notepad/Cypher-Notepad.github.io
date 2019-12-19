@@ -199,7 +199,7 @@ th {
 }
 
 .nav_buttons{
-  margin-right:80px;
+  margin-right:60px;
 }
 
 .nav_button{
@@ -471,6 +471,15 @@ th {
   
 }
 
+.nav-user-icon{
+  color:#fff;
+}
+
+.nav-user-icon:hover{
+  color:#fff;
+}
+
+
 @keyframes ring {
   0% {
       transform: rotate(35deg);
@@ -507,6 +516,7 @@ th {
 
 #download_windows, #download_linux{
   margin: 15px;
+  text-decoration: none;
 }
 
 #div_speed_graph, #div_response_graph{
@@ -601,7 +611,7 @@ th {
 }
 
 
-@media (max-width: 645px){
+@media (max-width: 599px){
   .div_main{
     margin-top: 140px;
   }
