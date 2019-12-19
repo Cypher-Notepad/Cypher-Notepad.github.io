@@ -209,7 +209,7 @@ hr {
 }
 
 .box_btn_close{
-  width:20px;
+  width:30px;
   text-align: center;
   position: absolute;
   right: 0em;
@@ -373,6 +373,8 @@ hr {
   text-decoration: none;
 }
 
+
+
 #div_speed_graph, #div_response_graph{
   /*To resize the size of graphs, adust this value*/
   height:65%;
@@ -392,6 +394,16 @@ hr {
 
 #div_ranking_table{
   width:600px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
 }
 
 /*Scroll bar design*/
@@ -588,6 +600,10 @@ hr {
   -moz-animation: 0;
   animation: 0;
 }
+.download:focus{
+  color:#fff;
+}
+
 .download svg {
   z-index: 0;
   fill: white;

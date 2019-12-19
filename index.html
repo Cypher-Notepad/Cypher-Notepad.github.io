@@ -15,12 +15,12 @@
   <div id="navigation_bar" class="navbar">
     <div class="nav_content">
       <div class="nav_logo">
-        <img id="img_nav_logo" src="resource/logo_main.png">
+        <img id="img_nav_logo" class="noselect" src="resource/logo_main.png">
       </div>
       <div class="nav_buttons">
-        <button id="ttt" class="nav_button" onclick="getIntroTab()">Introduction</button>
-        <button class="nav_button" onclick="getDownloadTab()">Download</button>
-        <button class="nav_button" onclick="getContactTab()">Contact</button>
+        <button class="nav_button noselect" onclick="getIntroTab()">Introduction</button>
+        <button class="nav_button noselect" onclick="getDownloadTab()">Download</button>
+        <button class="nav_button noselect" onclick="getContactTab()">Contact</button>
       </div>
       <div id="nav_user">
         <a href="javascript:window.open('https://github.com/LeeDongGeon1996/Crypto-Notepad')">
@@ -28,23 +28,17 @@
         </a>
       </div>
     </div>
-
-    <!--<hr>-->
   </div>
 
   <div id="main_div" class="div_main">
-
     <div id="user_div" class="loggedin-div"></div>
-
   </div>
 
-  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 
   <script type="text/template" data-template>
     <div id="-div_id-" class='-div_class-'>
-      <div class="box_header">
+      <div class="box_header noselect">
         <div class="box_header_content box_title">-title-</div>
         <div class="box_header_content box_btn_close" onclick="removeDiv(this.parentNode.parentNode.id)">X</div>
       </div>

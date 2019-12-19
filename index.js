@@ -13,9 +13,6 @@ function getYpos(el) {
 function gotoDiv(el){
   window.scrollTo(0, getYpos(el) - document.getElementById('navigation_bar').clientHeight -5);
 }
-function css( element, property ) {
-  return window.getComputedStyle( element, null ).getPropertyValue( property );
-}
 
 function removeDiv(divName){
   $('#'+divName).css('-webkit-animation', 'slide-fade-out 0.4s');
@@ -97,7 +94,7 @@ function getDownloadTab(){
 
 
   contentDownload = '<div class="div_content_outer">' + 
-                      '<div class="div_content_main">' +
+                      '<div class="div_content_main noselect">' +
                         '-content_main-' + 
                       '</div>' + 
                       '<div class="div_content_sub">' +
@@ -106,7 +103,7 @@ function getDownloadTab(){
                     '</div>';
   htmlDivDown = htmlDivDown.replace(/-box_content-/g, contentDownload)
 
-  contentMain = '<a id="download_windows" href="https://github.com/LeeDongGeon1996/Crypto-Notepad/releases/tag/1.0" class="download">\
+  contentMain = '<a id="download_windows" href="javascript:window.open(\'https://github.com/LeeDongGeon1996/Crypto-Notepad/releases/tag/1.0\')" class="download">\
                       <svg height="700px" width="700px" viewBox="0 0 512 499.81" version="1.1" id="windows">\
                         <path d="M0,67.048l207.238-27.137v197.803H0V67.048z M207.238,459.904L0,432.762V262.096h207.238V459.904z M512,\
                         0v237.714H231.619  v-201L512,0z M512,499.81l-280.381-36.714v-201H512V499.81z"></path>\
@@ -217,11 +214,6 @@ function getDownloadTab(){
   $('#user_div').append(htmlDivDown)
   
   setTimeout(()=>{gotoDiv(document.getElementById("div_download"))}, scrollDelay);
-
-  console.log(css( document.getElementById('download_tab_sub_title'), 'font-family' ));
-  console.log(css( document.getElementById('download_tab_sub_title'), 'font-size' ));
-  console.log(css( document.getElementById('download_tab_sub_title'), 'font-style' ));
-
 }
 
 function getContactTab(){
@@ -274,9 +266,4 @@ function getContactTab(){
 
   $('#user_div').append(htmlDivContact)
   setTimeout(()=>{gotoDiv(document.getElementById("div_contact"))}, scrollDelay);
-  console.log(css( document.getElementById('ttt'), 'font-family' ));
-  console.log(css( document.getElementById('ttt'), 'font-size' ));
-  
-  console.log(css( document.getElementById('ttt'), 'font-style' ));
-  
 }
