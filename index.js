@@ -272,7 +272,7 @@ function getContactTab(){
 
   
   contentContact = '<div class="div_content_outer">' + 
-                      '<div class="div_content_main">' +
+                      '<div id="sns_btn_div" class="div_content_main">' +
                         '-content_main-' + 
                       '</div>' + 
                       '<div class="div_content_sub">' +
@@ -283,13 +283,26 @@ function getContactTab(){
 
 
   contentMain = '<a href="javascript:window.open(\'https://www.facebook.com/matth1996\')"><div class="icon ion-logo-facebook icon-bounce"></div></a>' + 
-                    '<div class="icon ion-md-mail icon-bounce" href="" ></div>' + 
-                    '<a href="javascript:window.open(\'https://github.com/LeeDongGeon1996/Crypto-Notepad\')"><div class="icon ion-logo-github icon-bounce"></div></a>' + 
-                    '<a href="javascript:window.open(\'https://www.instagram.com/day12.oct\')"><div class="icon ion-logo-instagram icon-bounce"></div></a>';
-                   
-
+                '<a href="javascript:window.open(\'https://www.facebook.com/matth1996\')"><div class="icon ion-md-mail icon-bounce" href="" ></div></a>' + 
+                '<a href="javascript:window.open(\'https://github.com/LeeDongGeon1996/Crypto-Notepad\')"><div class="icon ion-logo-github icon-bounce"></div></a>' + 
+                '<a href="javascript:window.open(\'https://www.instagram.com/day12.oct\')"><div class="icon ion-logo-instagram icon-bounce"></div></a>';
   htmlDivContact = htmlDivContact.replace(/-content_main-/g, contentMain)
   
+  contentSub = '<div> <h2 id="download_tab_sub_title">Feel free to contact<h2> </div>' + 
+                '<div id="download_tab_sub_text">' +
+                 '<h3> Crypto-Notepad 2.0 </h3>' +
+                 '<div id="dowload_tab_sub_text_detail">' + 
+                  '<ul class="download_detail">' + 
+                     '<li>Release Date : 11 Nov 2019</li>' + 
+                     '<li>Requirement : The program requires Java Runtime Environment(JRE) 1.8. You can download JRE1.8 ' + 
+                     '<a href="https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">here</a>.</li>' + 
+                  '</ul>' + 
+                  '</div>' + 
+                '</div>';
+                
+    htmlDivContact = htmlDivContact.replace(/-content_sub-/g, contentSub)
+
+
   $('#user_div').append(htmlDivContact)
   setTimeout(()=>{gotoDiv(document.getElementById("div_contact"))}, scrollDelay);
   

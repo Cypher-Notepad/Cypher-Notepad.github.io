@@ -324,9 +324,22 @@ th {
 }
 
 .div_content_main{
+  text-align: center;
   display: inline-block;
 }
 
+#sns_btn_div{
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: #444 double;
+}
+
+/*
+.div_button{
+  width:30px;
+  height:30px;
+}
+*/
 
 .div_content_sub{
   text-align: center;
@@ -450,10 +463,14 @@ th {
 
 /*-----------------------------------------------------------------------------*/
 .icon-bounce:hover{
-  animation:bounceright .3s alternate ease infinite;
   background:transparent;
+  animation:bounceright .3s alternate ease infinite;
+  
   -webkit-animation:bounceright .3s alternate ease infinite;
   animation:bounceright .3s alternate ease infinite;
+}
+.icon-shadow{
+  background: radial-gradient(50% 10%, #000 0%, #fff 100%);
 }
 
 /*
