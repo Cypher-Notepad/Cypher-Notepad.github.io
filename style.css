@@ -199,7 +199,7 @@ th {
 }
 
 .nav_buttons{
-  margin-right:100px;
+  margin-right:80px;
 }
 
 #nav_user{
@@ -327,6 +327,7 @@ th {
   display: inline-block;
 }
 
+
 .div_content_sub{
   text-align: center;
 }
@@ -431,6 +432,12 @@ th {
   }
 }
 
+@media (max-width: 660px){
+  .loggedin-div{
+    width:90%;
+  }
+}
+
 
 @media (max-width: 645px){
   .div_main{
@@ -439,17 +446,14 @@ th {
   .nav_buttons{
     margin-left:10px;
   }
-
-  .loggedin-div{
-    width:90%;
-  }
 }
 
 /*-----------------------------------------------------------------------------*/
-.button2 li:hover a.demo:after,.button2 li:hover a.download:after{
+.icon-bounce:hover{
+  animation:bounceright .3s alternate ease infinite;
   background:transparent;
   -webkit-animation:bounceright .3s alternate ease infinite;
-  animation:bounceright .3s alternate ease infinite
+  animation:bounceright .3s alternate ease infinite;
 }
 
 /*
@@ -463,6 +467,7 @@ th {
 }
 */
 .icon {
+  float:left;
   font-size: 40px;
   padding: 0.6rem 0.6rem;
   color: #444;
@@ -470,6 +475,7 @@ th {
   margin: 0 0.4rem;
 }
 .icon:after {
+  /*
   position: absolute;
   right: 0;
   bottom: 3.5rem;
@@ -478,23 +484,29 @@ th {
   display: block;
   width: auto;
   font-size: 0.6rem;
+  */
+  /*
   color: #EF5350;
   background-color: #FFE082;
   padding: 1rem;
   opacity: 0;
   pointer-events: none;
+  
   -webkit-transform: translateY(1rem);
           transform: translateY(1rem);
   transition: all 300ms ease 200ms;
+  */
 }
 .icon:hover {
-  color: #FFE082;
+  color: #9730b0;
 }
+/*
 .icon:hover:after {
   opacity: 1;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
 }
+*/
 /*
 .netbox:before {
   position: absolute;
@@ -517,8 +529,15 @@ th {
 }
 */
 
-@-webkit-keyframes bounceright{from{-webkit-transform:translateX(0)}to{-webkit-transform:translateX(3px)}}
-@keyframes bounceright{from{transform:translateX(0)}to{transform:translateX(3px)}}
+@-webkit-keyframes bounceright{
+  from{-webkit-transform:translateY(0)}
+  to{-webkit-transform:translateY(-3px)}
+}
+
+@keyframes bounceright{
+  from{transform:translateY(0)}
+  to{transform:translateY(-3px)}
+}
 
 /*-----------------------------------------------------------------------------*/
 

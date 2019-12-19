@@ -282,10 +282,10 @@ function getContactTab(){
   htmlDivContact = htmlDivContact.replace(/-box_content-/g, contentContact)
 
 
-  contentMain = '<a class="icon ion-logo-facebook" href="#" data-tip="I share some interesting posts about Tech in FB!"></a>' + 
-                    '<a class="icon ion-md-mail" href="#" data-tip="Wanna know when I m cooking a new Codepen recipe? Follow me!"></a>' + 
-                    '<a class="icon ion-logo-github" href="#" data-tip="I ve written a lot of lines of code, take a look :)"></a>' + 
-                    '<a class="icon ion-logo-instagram" href="#" data-tip="I do some Pens to have fun!"></a>';
+  contentMain = '<div class="icon ion-logo-facebook icon-bounce" href="#" ></div>' + 
+                    '<div class="icon ion-md-mail icon-bounce" href="#" ></div>' + 
+                    '<div class="icon ion-logo-github icon-bounce" href="#" ></div>' + 
+                    '<div class="icon ion-logo-instagram icon-bounce" href="#" ></div>';
                    
 
   htmlDivContact = htmlDivContact.replace(/-content_main-/g, contentMain)
