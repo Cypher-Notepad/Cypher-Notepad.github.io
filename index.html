@@ -12,30 +12,12 @@
   <link rel="icon" type="image/png" href="resource/logo_title_bar.png">
 </head>
 <body>  
-
-<!--
-  <div id="login_div" class="main-div">
-    <h1>Brain Endurance Training Web Admin Panel</h1>
-    <input type="email" placeholder="Email..." id="email_field" />
-    <input type="password" placeholder="Password..." id="password_field" />
-    <button onclick="login()">Log in</button>
-  </div>
-
-  <div id="login_div_logo">
-    <img id="img_login_logo" src="resource/logo_uok_colored_transparent.png">
-    </div>
--->
   <div id="navigation_bar" class="navbar">
     <div class="nav_content">
       <div class="nav_logo">
         <img id="img_nav_logo" src="resource/logo_main.png">
       </div>
       <div class="nav_buttons">
-        <!--
-        <button class="nav_button" onclick="getUsers()">Show all users</button>
-        <button class="nav_button" onclick="logout()">Logout</button>
-        -->
-
         <button id="ttt" class="nav_button" onclick="getIntroTab()">Introduction</button>
         <button class="nav_button" onclick="getDownloadTab()">Download</button>
         <button class="nav_button" onclick="getContactTab()">Contact</button>
@@ -60,25 +42,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 
-  <!--For OSM -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
-  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-  crossorigin=""/>
-  <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
-   integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
-   crossorigin=""></script>
-  <script>
-    // Initialize Firebase  
-    var config = {
-      apiKey: "AIzaSyBbBMxrZ0FPAiFoLGfR8zeBLX38iQvd_Gk",
-      authDomain: "brain-training-app-81a81.firebaseapp.com",
-      databaseURL: "https://brain-training-app-81a81.firebaseio.com",
-      projectId: "brain-training-app-81a81",
-      storageBucket: "brain-training-app-81a81.appspot.com",
-      messagingSenderId: "743227343146"
-    };
-    firebase.initializeApp(config);
-  </script>
   <script type="text/template" data-template>
     <div id="-div_id-" class='-div_class-'>
       <div class="box_header">

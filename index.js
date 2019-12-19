@@ -257,7 +257,7 @@ function getContactTab(){
   
   contentSub = '<div style="font-size:12px;font-color:#777">' + 
                   '<h2 id="download_tab_sub_title">Feel free to contact</h2> ' +
-                  'If you have any problems or questions when using the program, please contact developer.' +  
+                  'If you have any problems or questions when using the program, please contact the developer.' +  
                 '</div>' + 
                 '<div id="download_tab_sub_text">' +
                   '<div class="contact_tab_noti">' + 
