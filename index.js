@@ -107,7 +107,7 @@ function getIntroTab(){
   .replace(/-title-/g, "Introduction")
 
   contentIntro = //'<img id="img_nav_logo" src="resource/sample_notepad.png">' + 
-                  "<div>It is often necessary to protect important notes in order to prevent them from being accessed by others, " + 
+                  "<div>This is sample text. It is often necessary to protect important notes in order to prevent them from being accessed by others, " + 
                   "but text editors that offer encryption features are sometimes too complex for users who just want a secure " +  
                   "Notepad alternative. Crypto Notepad stands out through its relatively simple design, as it looks very similar " + 
                   "to the standard Windows Notepad. It offers a few extra features, such as encryption and a customizable UI, " + 
@@ -282,10 +282,10 @@ function getContactTab(){
   htmlDivContact = htmlDivContact.replace(/-box_content-/g, contentContact)
 
 
-  contentMain = '<div class="icon ion-logo-facebook icon-bounce" href="#" ></div>' + 
-                    '<div class="icon ion-md-mail icon-bounce" href="#" ></div>' + 
-                    '<div class="icon ion-logo-github icon-bounce" href="#" ></div>' + 
-                    '<div class="icon ion-logo-instagram icon-bounce" href="#" ></div>';
+  contentMain = '<a href="javascript:window.open(\'https://www.facebook.com/matth1996\')"><div class="icon ion-logo-facebook icon-bounce"></div></a>' + 
+                    '<div class="icon ion-md-mail icon-bounce" href="" ></div>' + 
+                    '<a href="javascript:window.open(\'https://github.com/LeeDongGeon1996/Crypto-Notepad\')"><div class="icon ion-logo-github icon-bounce"></div></a>' + 
+                    '<a href="javascript:window.open(\'https://www.instagram.com/day12.oct\')"><div class="icon ion-logo-instagram icon-bounce"></div></a>';
                    
 
   htmlDivContact = htmlDivContact.replace(/-content_main-/g, contentMain)
