@@ -360,6 +360,151 @@ th {
   margin-top: 10px;
 }
 
+/*-----------------------------------------------------------------------------*/
+.icon-bounce:hover{
+  background:transparent;
+  animation:bounceright .3s alternate ease infinite;
+  
+  -webkit-animation:bounceright .3s alternate ease infinite;
+  animation:bounceright .3s alternate ease infinite;
+}
+.icon-shadow{
+  background: radial-gradient(50% 10%, #000 0%, #fff 100%);
+}
+
+/*
+.netbox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #444;
+  color: #444;
+}
+*/
+.icon {
+  float:left;
+  font-size: 40px;
+  padding: 0.6rem 0.6rem;
+  color: #444;
+  transition: color 140ms ease;
+  margin: 0 0.4rem;
+}
+.icon:after {
+  /*
+  position: absolute;
+  right: 0;
+  bottom: 3.5rem;
+  z-index: 20;
+  content: attr(data-tip);
+  display: block;
+  width: auto;
+  font-size: 0.6rem;
+  */
+  /*
+  color: #EF5350;
+  background-color: #FFE082;
+  padding: 1rem;
+  opacity: 0;
+  pointer-events: none;
+  
+  -webkit-transform: translateY(1rem);
+          transform: translateY(1rem);
+  transition: all 300ms ease 200ms;
+  */
+}
+.icon:hover {
+  color: #9730b0;
+}
+/*
+.icon:hover:after {
+  opacity: 1;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+*/
+/*
+.netbox:before {
+  position: absolute;
+  top: -0.5rem;
+  right: 0;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #FFE082;
+}
+.netbox:after {
+  position: absolute;
+  top: -0.8rem;
+  right: 0;
+  content: 'Find me on my networks!';
+  font-size: 0.5rem;
+  padding-left: 10px;
+  background-color: #EF5350;
+}
+*/
+
+.contact_tab_noti {
+  padding: 0.75rem 1.25rem;
+  margin-top: 20px;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.contact_tab_noti hr {
+  border-top-color: #b1dfbb;
+}
+
+.noti_icon{
+  font-size:32px;
+  animation: ring 2s alternate ease infinite;
+  animation-delay: 1s;
+}
+
+#noti_ring{
+  display: inline-block;
+  
+}
+
+@keyframes ring {
+  0% {
+      transform: rotate(35deg);
+      color:#444;
+  }
+  4.1625% {
+      transform: rotate(-30deg);
+  }
+  8.325% {
+      transform: rotate(25deg);
+  }
+  12.4875% {
+      transform: rotate(-20deg);
+  }
+  16.65% {
+      transform: rotate(15deg);
+  }
+  20.8125% {
+      transform: rotate(-10deg);
+      color:#9730b0;
+  }
+  24.975% {
+      transform: rotate(5deg);
+  }
+  29.1375% {
+      transform: rotate(0deg);
+      
+  }
+  100% {
+      transform: rotate(0deg);
+  }
+  
+}
+
 #download_windows, #download_linux{
   margin: 15px;
 }
@@ -465,90 +610,7 @@ th {
   }
 }
 
-/*-----------------------------------------------------------------------------*/
-.icon-bounce:hover{
-  background:transparent;
-  animation:bounceright .3s alternate ease infinite;
-  
-  -webkit-animation:bounceright .3s alternate ease infinite;
-  animation:bounceright .3s alternate ease infinite;
-}
-.icon-shadow{
-  background: radial-gradient(50% 10%, #000 0%, #fff 100%);
-}
 
-/*
-.netbox {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #444;
-  color: #444;
-}
-*/
-.icon {
-  float:left;
-  font-size: 40px;
-  padding: 0.6rem 0.6rem;
-  color: #444;
-  transition: color 140ms ease;
-  margin: 0 0.4rem;
-}
-.icon:after {
-  /*
-  position: absolute;
-  right: 0;
-  bottom: 3.5rem;
-  z-index: 20;
-  content: attr(data-tip);
-  display: block;
-  width: auto;
-  font-size: 0.6rem;
-  */
-  /*
-  color: #EF5350;
-  background-color: #FFE082;
-  padding: 1rem;
-  opacity: 0;
-  pointer-events: none;
-  
-  -webkit-transform: translateY(1rem);
-          transform: translateY(1rem);
-  transition: all 300ms ease 200ms;
-  */
-}
-.icon:hover {
-  color: #9730b0;
-}
-/*
-.icon:hover:after {
-  opacity: 1;
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
-}
-*/
-/*
-.netbox:before {
-  position: absolute;
-  top: -0.5rem;
-  right: 0;
-  content: '';
-  display: block;
-  width: 100%;
-  height: 1px;
-  background-color: #FFE082;
-}
-.netbox:after {
-  position: absolute;
-  top: -0.8rem;
-  right: 0;
-  content: 'Find me on my networks!';
-  font-size: 0.5rem;
-  padding-left: 10px;
-  background-color: #EF5350;
-}
-*/
 
 @-webkit-keyframes bounceright{
   from{-webkit-transform:translateY(0)}
