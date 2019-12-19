@@ -13,7 +13,9 @@ function getYpos(el) {
 function gotoDiv(el){
   window.scrollTo(0, getYpos(el) - document.getElementById('navigation_bar').clientHeight -5);
 }
-
+function css( element, property ) {
+  return window.getComputedStyle( element, null ).getPropertyValue( property );
+}
 
 /*
 firebase.auth().onAuthStateChanged(function(user) {
@@ -255,6 +257,11 @@ function getDownloadTab(){
   $('#user_div').append(htmlDivDown)
   
   setTimeout(()=>{gotoDiv(document.getElementById("div_download"))}, scrollDelay);
+
+  console.log(css( document.getElementById('download_tab_sub_title'), 'font-family' ));
+  console.log(css( document.getElementById('download_tab_sub_title'), 'font-size' ));
+  console.log(css( document.getElementById('download_tab_sub_title'), 'font-style' ));
+  
 }
 
 function getContactTab(){
@@ -305,6 +312,10 @@ function getContactTab(){
 
   $('#user_div').append(htmlDivContact)
   setTimeout(()=>{gotoDiv(document.getElementById("div_contact"))}, scrollDelay);
+  console.log(css( document.getElementById('ttt'), 'font-family' ));
+  console.log(css( document.getElementById('ttt'), 'font-size' ));
+  
+  console.log(css( document.getElementById('ttt'), 'font-style' ));
   
 }
 
