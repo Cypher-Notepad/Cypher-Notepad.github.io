@@ -255,9 +255,9 @@ function getContactTab(){
                   '<div class="contact_tab_noti">' + 
                   '<div id="noti_ring" class="noti_icon icon ion-md-notifications"></div>' + 
                   '<strong style="font-size:28px;">HELP</strong><br>' + 
-                  '<div style="margin-left:42px;">I\'m looking for someone developing Crypto-Notepad for Android or IOS. ' + 
-                  'Anyone who has an interest in developing or upgrading this program is welcome. ' +
-                  'Contact developer via any link above.</div>' +
+                  '<div style="margin-left:42px;">We are looking for an Android/IOS developer who is willing to develop and upgrade Crypto-Notepad. ' + 
+                  'Anyone with an interest on contributing to this project is welcome. ' + 
+                  'Please contact us via any of the links above.</div>' +
                   '</div>' + 
                 '</div>';
                 
