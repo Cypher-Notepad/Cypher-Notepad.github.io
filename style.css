@@ -264,15 +264,19 @@ hr {
   text-align: center;
 }
 
-#download_tab_sub_text{
+.tab_sub_text{
   display: inline-block;
   text-align:left;
   width:80%;
 }
 
-
-#download_tab_sub_title{
+.tab_sub_title{
   margin-top: 10px;
+}
+
+#main_tab_img{
+  width: 40%;
+  height: auto;
 }
 
 .icon-bounce:hover{

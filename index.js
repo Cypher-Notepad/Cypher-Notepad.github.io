@@ -4,6 +4,9 @@ var selectedUser = ""
 var urlPfx = ""
 var scrollDelay = 300
 
+window.onload = function() { getIntroTab() }
+
+
 function getYpos(el) {
   var rect = el.getBoundingClientRect(),
   scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -65,18 +68,36 @@ function getIntroTab(){
   .replace(/-div_class-/g, "div_content_box div_slide_down")
   .replace(/-title-/g, "Introduction")
 
-  contentIntro = //'<img id="img_nav_logo" src="resource/sample_notepad.png">' + 
-                  "<div>This is sample text. It is often necessary to protect important notes in order to prevent them from being accessed by others, " + 
-                  "but text editors that offer encryption features are sometimes too complex for users who just want a secure " +  
-                  "Notepad alternative. Crypto Notepad stands out through its relatively simple design, as it looks very similar " + 
-                  "to the standard Windows Notepad. It offers a few extra features, such as encryption and a customizable UI, " + 
-                  "but it remains lightweight and very easy to use.</div>";
-
+  contentIntro = '<div class="div_content_outer">' + 
+                      '<div class="div_content_main noselect">' +
+                        '-content_main-' + 
+                      '</div>' + 
+                      '<div class="div_content_sub">' +
+                        '-content_sub-' + 
+                      '</div>' + 
+                    '</div>';
   htmlDivIntro = htmlDivIntro.replace(/-box_content-/g, contentIntro)
-  //$('#div_intro').remove()
+
+  contentMain = '';
+  htmlDivIntro = htmlDivIntro.replace(/-content_main-/g, contentMain)
+
+
+
+  contentSub = '<div style="font-size:12px;font-color:#777;margin-bottom:20px;">' + 
+                  '<h2 id="download_tab_sub_title">Crypto-Notepad</h2>' + 
+                  'Easy, Simple, Secure, and Free' + 
+                '</div>' + 
+  '<div id="download_tab_sub_text">' +
+   '<img id="main_tab_img" src="resource/sample_main.png" />' +
+   '<div id="dowload_tab_sub_text_detail">' + 
+    
+    '</div>' + 
+  '</div>';
+  
+  htmlDivIntro = htmlDivIntro.replace(/-content_sub-/g, contentSub)
+
   $('#user_div').append(htmlDivIntro)
   setTimeout(()=>{gotoDiv(document.getElementById("div_intro"))}, scrollDelay);
-  //gotoDiv(document.getElementById("div_intro"));
 }
 
 function getDownloadTab(){
@@ -193,8 +214,8 @@ function getDownloadTab(){
                     </a>';
   htmlDivDown = htmlDivDown.replace(/-content_main-/g, contentMain)
 
-  contentSub = '<div> <h2 id="download_tab_sub_title">Download and Protect your data!<h2> </div>' + 
-                '<div id="download_tab_sub_text">' +
+  contentSub = '<div> <h2 class="tab_sub_title">Download and Protect your data!<h2> </div>' + 
+                '<div class="tab_sub_text">' +
                  '<h3> Crypto-Notepad 2.0 </h3>' +
                  '<div id="dowload_tab_sub_text_detail">' + 
                   '<ul class="download_detail">' + 
@@ -248,10 +269,10 @@ function getContactTab(){
   htmlDivContact = htmlDivContact.replace(/-content_main-/g, contentMain)
   
   contentSub = '<div style="font-size:12px;font-color:#777">' + 
-                  '<h2 id="download_tab_sub_title">Feel free to contact</h2> ' +
+                  '<h2 class="tab_sub_title">Feel free to contact</h2> ' +
                   'If you have any problems or questions when using the program, please contact the developer.' +  
                 '</div>' + 
-                '<div id="download_tab_sub_text">' +
+                '<div class="tab_sub_text">' +
                   '<div class="contact_tab_noti">' + 
                   '<div id="noti_ring" class="noti_icon icon ion-md-notifications"></div>' + 
                   '<strong style="font-size:28px;">HELP</strong><br>' + 
