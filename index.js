@@ -88,7 +88,7 @@ function getIntroTab(){
                   'Easy, Simple, Secure, and Free' + 
                 '</div>' + 
   '<div id="download_tab_sub_text">' +
-   '<img id="main_tab_img" src="resource/sample_main.png" />' +
+   '<img id="main_tab_img" class="noselect" src="resource/sample_main.png" />' +
    '<div id="dowload_tab_sub_text_detail">' + 
     
     '</div>' + 
