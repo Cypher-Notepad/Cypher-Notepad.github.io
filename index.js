@@ -263,7 +263,7 @@ function getContactTab(){
 
 
   contentMain = '<a href="javascript:window.open(\'https://www.facebook.com/matth1996\')"><div class="icon ion-logo-facebook icon-bounce"></div></a>' + 
-                '<a href="javascript:window.open(\'https://www.facebook.com/matth1996\')"><div class="icon ion-md-mail icon-bounce" href="" ></div></a>' + 
+                '<a href="mailto:secmatth1996@gmail.com"><div class="icon ion-md-mail icon-bounce" href="" ></div></a>' + 
                 '<a href="javascript:window.open(\'https://github.com/LeeDongGeon1996/Crypto-Notepad\')"><div class="icon ion-logo-github icon-bounce"></div></a>' + 
                 '<a href="javascript:window.open(\'https://www.instagram.com/day12.oct\')"><div class="icon ion-logo-instagram icon-bounce"></div></a>';
   htmlDivContact = htmlDivContact.replace(/-content_main-/g, contentMain)
