@@ -471,11 +471,19 @@ hr {
   .loggedin-div{
     width:80%;
   }
+  #main_tab_img{
+    width: 40%;
+    height: auto;
+  }
 }
 
 @media (max-width: 660px){
   .loggedin-div{
     width:90%;
+  }
+  #main_tab_img{
+    width: 45%;
+    height: auto;
   }
 }
 
@@ -486,6 +494,10 @@ hr {
   }
   .nav_buttons{
     margin-left:10px;
+  }
+  #main_tab_img{
+    width: 50%;
+    height: auto;
   }
 }
 
