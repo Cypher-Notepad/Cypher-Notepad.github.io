@@ -124,7 +124,7 @@ function getDownloadTab(){
                     '</div>';
   htmlDivDown = htmlDivDown.replace(/-box_content-/g, contentDownload)
 
-  contentMain = '<a id="download_windows" href="javascript:window.open(\'https://github.com/LeeDongGeon1996/Crypto-Notepad/releases/tag/1.0\')" class="download">\
+  contentMain = '<a id="download_windows" href="javascript:window.open(\'https://github.com/LeeDongGeon1996/Cypher-Notepad/releases/tag/1.0\')" class="download">\
                       <svg height="700px" width="700px" viewBox="0 0 512 499.81" version="1.1" id="windows">\
                         <path d="M0,67.048l207.238-27.137v197.803H0V67.048z M207.238,459.904L0,432.762V262.096h207.238V459.904z M512,\
                         0v237.714H231.619  v-201L512,0z M512,499.81l-280.381-36.714v-201H512V499.81z"></path>\
@@ -264,7 +264,7 @@ function getContactTab(){
 
   contentMain = '<a href="javascript:window.open(\'https://www.facebook.com/matth1996\')"><div class="icon ion-logo-facebook icon-bounce"></div></a>' + 
                 '<a href="mailto:secmatth1996@gmail.com"><div class="icon ion-md-mail icon-bounce" href="" ></div></a>' + 
-                '<a href="javascript:window.open(\'https://github.com/LeeDongGeon1996/Crypto-Notepad\')"><div class="icon ion-logo-github icon-bounce"></div></a>' + 
+                '<a href="javascript:window.open(\'https://github.com/LeeDongGeon1996/Cypher-Notepad\')"><div class="icon ion-logo-github icon-bounce"></div></a>' + 
                 '<a href="javascript:window.open(\'https://www.instagram.com/day12.oct\')"><div class="icon ion-logo-instagram icon-bounce"></div></a>';
   htmlDivContact = htmlDivContact.replace(/-content_main-/g, contentMain)
   
