@@ -84,7 +84,7 @@ function getIntroTab(){
 
 
   contentSub = '<div style="font-size:12px;font-color:#777;margin-bottom:20px;">' + 
-                  '<h2 id="download_tab_sub_title">Crypto-Notepad</h2>' + 
+                  '<h2 id="download_tab_sub_title">Cypher Notepad</h2>' + 
                   'Easy, Simple, Secure, and Free' + 
                 '</div>' + 
   '<div id="download_tab_sub_text">' +
@@ -216,7 +216,7 @@ function getDownloadTab(){
 
   contentSub = '<div> <h2 class="tab_sub_title">Download and Protect your data!<h2> </div>' + 
                 '<div class="tab_sub_text">' +
-                 '<h3> Crypto-Notepad 2.0 </h3>' +
+                 '<h3> Cypher Notepad 2.1 </h3>' +
                  '<div id="dowload_tab_sub_text_detail">' + 
                   '<ul class="download_detail">' + 
                      '<li>Release Date : 11 Nov 2019</li>' + 
@@ -276,7 +276,7 @@ function getContactTab(){
                   '<div class="contact_tab_noti">' + 
                   '<div id="noti_ring" class="noti_icon icon ion-md-notifications"></div>' + 
                   '<strong style="font-size:28px;">HELP</strong><br>' + 
-                  '<div style="margin-left:42px;">We are looking for an Android/IOS developer who is willing to develop and upgrade Crypto-Notepad. ' + 
+                  '<div style="margin-left:42px;">We are looking for an Android/IOS developer who is willing to develop and upgrade Cypher Notepad. ' + 
                   'Anyone with an interest on contributing to this project is welcome. ' + 
                   'Please contact us via any of the links above.</div>' +
                   '</div>' + 
