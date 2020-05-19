@@ -24,36 +24,6 @@ function removeDiv(divName){
   });  
 }
 
-function getUsers() {
-  var db = firebase.database()
-  var count = 0
-
-  htmlDivUserList = boxTemplate
-  htmlDivUserList = htmlDivUserList.replace(/-div_id-/g, "div_user_list")
-  .replace(/-div_class-/g, "div_content_box div_slide_right")
-  .replace(/-title-/g, "User List")
-
-  db.ref().once('value', function(snap) {
-    htmlDivUser = ""
-    snap.forEach(function(childSnap) {
-      count = count + 1
-      var btnId = "btn_view" + count.toString()
-      
-      htmlDivUser += '<div class="div_user_row" style="padding-top: 5px">' + 
-      '<button id = ' + btnId + '>View</button>' + 
-      childSnap.key + '</div>'
-    })
-    htmlDivUserList = htmlDivUserList.replace(/-box_content-/g, htmlDivUser)
-    $('#user_div').empty()
-    $('#user_div').append(htmlDivUserList)
-    
-    //add onclick
-    for(let i=0; i<=count; i++){
-      $('#' + "btn_view" + i).click(getRecords)
-    }
-  })
-}
-
 function getIntroTab(){
 
   var divIntro = document.getElementById("div_intro");
@@ -88,7 +58,7 @@ function getIntroTab(){
                   'Easy, Simple, Secure, and Free' + 
                 '</div>' + 
   '<div id="download_tab_sub_text">' +
-   '<img id="main_tab_img" class="noselect" src="resource/sample_main.png" />' +
+   '<img id="main_tab_img" alt="sample image for Cypher Notepad" class="noselect" src="resource/sample_main.png" />' +
    '<div id="dowload_tab_sub_text_detail">' + 
     
     '</div>' + 
@@ -264,7 +234,7 @@ function getContactTab(){
 
   contentMain = '<a href="javascript:window.open(\'https://www.facebook.com/matth1996\')"><div class="icon ion-logo-facebook icon-bounce"></div></a>' + 
                 '<a href="mailto:secmatth1996@gmail.com"><div class="icon ion-md-mail icon-bounce" href="" ></div></a>' + 
-                '<a href="javascript:window.open(\'https://github.com/LeeDongGeon1996/Cypher-Notepad\')"><div class="icon ion-logo-github icon-bounce"></div></a>' + 
+                '<a href="javascript:window.open(\'https://github.com/Cypher-Notepad\')"><div class="icon ion-logo-github icon-bounce"></div></a>' + 
                 '<a href="javascript:window.open(\'https://www.instagram.com/day12.oct\')"><div class="icon ion-logo-instagram icon-bounce"></div></a>';
   htmlDivContact = htmlDivContact.replace(/-content_main-/g, contentMain)
   
