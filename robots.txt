@@ -1,0 +1,9 @@
+# Group 1
+User-agent: *
+Disallow: /404
+
+# Group 2
+User-agent: *
+Allow: /
+
+Sitemap: https://cyphernotepad.com/sitemap.xml
