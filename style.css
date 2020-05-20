@@ -169,7 +169,8 @@ hr {
 
 .div_content_box{
   width: 100%;
-  overflow:auto;
+  /*overflow:auto;*/
+  overflow:hidden;
   display: inline-block;
   text-align: center;
   margin-bottom: 30px;
@@ -459,10 +460,16 @@ hr {
 @keyframes slide-fade-out {
   0% {
       opacity: 1;
-      transform: translateX(0);
+      /*transform: translateX(0);*/
+      height:50%;
+  }
+  90% {
+      
   }
   100% {
       opacity: 0;
+      margin-bottom:0;
+      height:0%;
       /*transform: translateX(30px);*/
   }
 }
