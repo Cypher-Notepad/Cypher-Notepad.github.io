@@ -18,6 +18,11 @@ function gotoDiv(el){
 }
 
 function removeDiv(divName){
+  //exception
+  if(divName == 'div_intro'){
+    divName = 'div_intro_wrapper'
+  }
+
   $('#'+divName).css('-webkit-animation', 'slide-fade-out 0.4s');
   $('#'+divName).bind('webkitAnimationEnd',function(){
     $('#'+divName).remove();
@@ -26,16 +31,15 @@ function removeDiv(divName){
 
 function getIntroTab(){
 
-  var divIntro = document.getElementById("div_intro");
+  var divIntro = document.getElementById("div_intro_wrapper");
   if(divIntro){
     gotoDiv(divIntro);
-    //divIntro.scrollIntoView();
     return;
   }
 
   htmlDivIntro = boxTemplate
   htmlDivIntro = htmlDivIntro.replace(/-div_id-/g, "div_intro")
-  .replace(/-div_class-/g, "div_content_box div_slide_down")
+  .replace(/-div_class-/g, "div_content_box")
   .replace(/-title-/g, "Introduction")
 
   contentIntro = '<div class="div_content_outer">' + 
@@ -52,19 +56,37 @@ function getIntroTab(){
   htmlDivIntro = htmlDivIntro.replace(/-content_main-/g, contentMain)
 
 
-
   contentSub = '<div style="font-size:12px;font-color:#777;margin-bottom:20px;">' + 
-                  '<h2 id="download_tab_sub_title">Cypher Notepad</h2>' + 
+                  '<h2 id="intro_tab_sub_title">Cypher Notepad</h2>' + 
                   'Easy, Simple, Secure, and Free' + 
                 '</div>' + 
-  '<div id="download_tab_sub_text">' +
-   '<img id="main_tab_img" alt="sample image for Cypher Notepad" class="noselect" src="resource/sample_main.png" />' +
-   '<div id="dowload_tab_sub_text_detail">' + 
-    
-    '</div>' + 
-  '</div>';
-  
+                '<div id="intro_tab_sub_text">' +
+                  '<img id="intro_tab_img" alt="sample image for Cypher Notepad" class="noselect" src="resource/sample_main.png" />' +
+                '</div>';
   htmlDivIntro = htmlDivIntro.replace(/-content_sub-/g, contentSub)
+
+
+  contentDetail = '<div id="div_intro_breaker"></div>' + 
+                  '<div class="div_content_box intro_tab_detail">' + 
+                    '<div class="intro_tab_detail_element">' + 
+                      '<b>Easy</b>' + 
+                      '<br>Cypher Notepad is easy to use. Users don\'t need to care about encryption and decryption. Just keep your secret key.'+
+                    '</div>' +  
+                    '<div class="intro_tab_detail_element">' + 
+                      '<b>Simple</b>' + 
+                      '<br>Cypher Notepad has simple UI. Its interface is extremly familier to users. User don\'t need to worry about being used to it.' +
+                    '</div>' +  
+                    '<div class="intro_tab_detail_element">' + 
+                      '<b>Secure</b>' + 
+                      '<br>Cypher Notepad is the best choice to secure your data. It is applied hybrid encryption that uses both RSA and AES.' +
+                    '</div>' +  
+                    '<div class="intro_tab_detail_element">' + 
+                      '<b>Free</b>' + 
+                      '<br>Cypher Notepad is 100% freeware. It is developer\'s pleasure for users to use it. Download it and start protecting your data.' + 
+                    '</div>' +  
+                  '</div>';
+  htmlDivIntro  = htmlDivIntro + contentDetail
+  htmlDivIntro = '<div id="div_intro_wrapper" class="div_slide_down">' + htmlDivIntro + '</div>'
 
   $('#user_div').append(htmlDivIntro)
   setTimeout(()=>{gotoDiv(document.getElementById("div_intro"))}, scrollDelay);
