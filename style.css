@@ -118,6 +118,7 @@ hr {
   width: 100%; /* Full width */
   display: none;
   border-bottom:2px solid #ddd;
+  border-radius:0px;
 }
 
 .nav_content{
@@ -276,6 +277,7 @@ hr {
 }
 
 #div_intro_wrapper{
+  overflow: hidden;
   text-align:center;
 }
 
@@ -290,7 +292,6 @@ hr {
   border-bottom: none;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  /*border-bottom: lightgray dashed 2px;*/
 }
 
 #intro_tab_img{
@@ -299,9 +300,6 @@ hr {
 }
 
 .intro_tab_detail{
-  /*border-top: lightgray dashed 2px;*/
-  /*border-radius: 15px;*/
-  
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   
@@ -309,14 +307,13 @@ hr {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 0px;
-  /*border:thick double #32a1ce;*/
 }
 
 .intro_tab_detail_element{
   float: left;
   width: 50%;
-  padding-left: 30px;
-  padding-right: 10px;
+  padding-left: 25px;
+  padding-right: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: left;

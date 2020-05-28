@@ -79,7 +79,7 @@ function getIntroTab(){
                       '<div class="icon fas fa-bars"></div>' + 
                       '<div style="margin-left: 60px;">' +
                         '<b>Simple</b>' + 
-                        '<br>Cypher Notepad has simple UI. Its interface is extremly familier to users. User don\'t need to worry about being used to it.' +
+                        '<br>Cypher Notepad has simple UI. Its interface is extremly familier to users. Users don\'t need to worry about being used to it.' +
                       '</div>' + 
                     '</div>' +  
                     '<div class="intro_tab_detail_element">' + 
