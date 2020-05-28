@@ -128,7 +128,7 @@ function getDownloadTab(){
                     '</div>';
   htmlDivDown = htmlDivDown.replace(/-box_content-/g, contentDownload)
 
-  contentMain = '<a id="download_windows" href="javascript:window.open(\'https://github.com/LeeDongGeon1996/Cypher-Notepad/releases/tag/1.0\')" class="download">\
+  contentMain = '<a id="download_windows" href="javascript:window.open(\'https://github.com/Cypher-Notepad/Cypher-Notepad/releases/tag/v2.1\')" class="download">\
                       <svg height="700px" width="700px" viewBox="0 0 512 499.81" version="1.1" id="windows">\
                         <path d="M0,67.048l207.238-27.137v197.803H0V67.048z M207.238,459.904L0,432.762V262.096h207.238V459.904z M512,\
                         0v237.714H231.619  v-201L512,0z M512,499.81l-280.381-36.714v-201H512V499.81z"></path>\
@@ -223,7 +223,7 @@ function getDownloadTab(){
                  '<h3> Cypher Notepad 2.1 </h3>' +
                  '<div id="dowload_tab_sub_text_detail">' + 
                   '<ul class="download_detail">' + 
-                     '<li>Release Date : 11 Nov 2019</li>' + 
+                     '<li>Release Date : 28 May 2020</li>' + 
                      '<li>Requirement : The program requires Java Runtime Environment(JRE) 1.8. You can download JRE1.8 ' + 
                      '<a href="https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">here</a>.</li>' + 
                   '</ul>' + 
