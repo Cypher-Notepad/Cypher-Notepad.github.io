@@ -69,19 +69,19 @@ function getIntroTab(){
   contentDetail = '<div id="div_intro_breaker"></div>' + 
                   '<div class="div_content_box intro_tab_detail">' + 
                     '<div class="intro_tab_detail_element">' + 
-                      '<b>Easy</b>' + 
+                      '<b><div class="icon fas fa-baby"></div>Easy</b>' + 
                       '<br>Cypher Notepad is easy to use. Users don\'t need to care about encryption and decryption. Just keep your secret key.'+
                     '</div>' +  
                     '<div class="intro_tab_detail_element">' + 
-                      '<b>Simple</b>' + 
+                      '<b><div class="icon fas fa-bars"></div>Simple</b>' + 
                       '<br>Cypher Notepad has simple UI. Its interface is extremly familier to users. User don\'t need to worry about being used to it.' +
                     '</div>' +  
                     '<div class="intro_tab_detail_element">' + 
-                      '<b>Secure</b>' + 
+                      '<b><div class="icon ion-md-lock" ></div>Secure</b>' + 
                       '<br>Cypher Notepad is the best choice to secure your data. It is applied hybrid encryption that uses both RSA and AES.' +
                     '</div>' +  
                     '<div class="intro_tab_detail_element">' + 
-                      '<b>Free</b>' + 
+                      '<b><div class="icon fab fa-creative-commons-nc"></div>Free</b>' + 
                       '<br>Cypher Notepad is 100% freeware. It is developer\'s pleasure for users to use it. Download it and start protecting your data.' + 
                     '</div>' +  
                   '</div>';
