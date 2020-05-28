@@ -144,6 +144,11 @@ hr {
   font-size:13.333px;
 }
 
+.nav_button:focus{
+  outline: none;
+}
+
+
 #nav_user{
   position: absolute;
   right: 3px;
