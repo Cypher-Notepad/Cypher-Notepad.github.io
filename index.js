@@ -129,14 +129,14 @@ function getDownloadTab(){
   htmlDivDown = htmlDivDown.replace(/-box_content-/g, contentDownload)
 
   contentMainTemp = '<h2>🎉 Now Available on Linux 🎉</h2>'
-  contentMain = contentMainTemp + '<a id="download_windows" href="javascript:window.open(\'https://github.com/Cypher-Notepad/Cypher-Notepad/releases/tag/v2.1#windows\')" class="download">\
+  contentMain = contentMainTemp + '<a id="download_windows" href="https://github.com/Cypher-Notepad/Cypher-Notepad/releases/tag/v2.1#windows" target="_blank" class="download">\
                       <svg height="700px" width="700px" viewBox="0 0 512 499.81" version="1.1" id="windows">\
                         <path d="M0,67.048l207.238-27.137v197.803H0V67.048z M207.238,459.904L0,432.762V262.096h207.238V459.904z M512,\
                         0v237.714H231.619  v-201L512,0z M512,499.81l-280.381-36.714v-201H512V499.81z"></path>\
                       </svg>\
                       <span>Windows</span>\
                     </a>\
-                    <a id="download_linux" href="javascript:window.open(\'https://github.com/Cypher-Notepad/Cypher-Notepad/releases/tag/v2.1#linux\')" class="download">\
+                    <a id="download_linux" href="https://github.com/Cypher-Notepad/Cypher-Notepad/releases/tag/v2.1#linux" target="_blank" class="download">\
                       <svg height="700px" width="700px" viewBox="0 0 1000 1000" version="1.1" id="linux">\
                         <path d="M369.954 229.402q-6.138 .558 -8.649 5.859t-4.743 5.301q-2.79 .558 -2.79 -2.79 0 \
                         -6.696 10.602 -8.37h5.58zm48.546 7.812q-2.232 .558 -6.417 -3.627t-9.765 -2.511q13.392 \
@@ -268,10 +268,10 @@ function getContactTab(){
   htmlDivContact = htmlDivContact.replace(/-box_content-/g, contentContact)
 
 
-  contentMain = '<a href="javascript:window.open(\'https://www.facebook.com/matth1996\')"><div class="icon ion-logo-facebook icon-bounce"></div></a>' + 
-                '<a href="mailto:secmatth1996@gmail.com"><div class="icon ion-md-mail icon-bounce" href="" ></div></a>' + 
-                '<a href="javascript:window.open(\'https://github.com/Cypher-Notepad\')"><div class="icon ion-logo-github icon-bounce"></div></a>' + 
-                '<a href="javascript:window.open(\'https://www.instagram.com/day12.oct\')"><div class="icon ion-logo-instagram icon-bounce"></div></a>';
+  contentMain = '<a href="https://www.facebook.com/matth1996" target="_blank"><div class="icon ion-logo-facebook icon-bounce"></div></a>' + 
+                '<a href="mailto:secmatth1996@gmail.com"><div class="icon ion-md-mail icon-bounce"></div></a>' + 
+                '<a href="https://github.com/Cypher-Notepad" target="_blank"><div class="icon ion-logo-github icon-bounce"></div></a>' + 
+                '<a href="https://www.instagram.com/day12.oct" target="_blank"><div class="icon ion-logo-instagram icon-bounce"></div></a>';
   htmlDivContact = htmlDivContact.replace(/-content_main-/g, contentMain)
   
   contentSub = '<div style="font-size:12px;font-color:#777">' + 
