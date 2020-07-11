@@ -1,6 +1,7 @@
 # Group 1
 User-agent: *
 Disallow: /404
+Disallow: /version
 
 # Group 2
 User-agent: *
