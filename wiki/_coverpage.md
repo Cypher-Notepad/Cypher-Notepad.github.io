@@ -1,7 +1,7 @@
-<!-- _coverpage.md 
+<!-- _coverpage.md -->
 
 ![logo](https://cypher-notepad.github.io/resource/icon.ico)
--->
+
 # [Cypher Notepad Documentation<small>v3.0</small>](#home)
 
 > The user-friendly, plain-text editor with Hybrid Encryption.
