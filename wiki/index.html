@@ -12,22 +12,28 @@
 <body>
   <div id="app"></div>
   <script>
+    const urlParams = new URLSearchParams(window.location.hash.substring(2));
+    let loadCoverpage = urlParams.get('coverpage');
+    if(!loadCoverpage){
+      loadCoverpage = 'true';
+    }
+    loadCoverpage = (loadCoverpage == 'true');
+
     window.$docsify = {
       el: '#app',
       name: 'Cypher Notepad',
       nameLink: 'https://cypher-notepad.github.io/',
-      //relativePath: true,
-      //repo: 'https://github.com/docsifyjs/docsify/',
       logo: '',
       themeColor: '#68217A',
       notFoundPage: 'https://cypher-notepad.github.io/404.html',
       loadSidebar: true,
-      coverpage: true,
+      coverpage: loadCoverpage,
       onlyCover: false,
+      //relativePath: true,
+      //repo: 'https://github.com/docsifyjs/docsify/',
       
       //dev
       //basePath: 'https://leedonggeon1996.github.io/Cypher-Notepad.github.io/wiki/',
-      
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
