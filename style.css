@@ -82,7 +82,7 @@ input, button {
   border: 1px solid transparent;
 }
 
-.main-div button:hover, .loggedin-div button:hover, .navbar button:hover {
+.main-div button:hover, .loggedin-div button:hover, .navbar button:hover{
   background: #fff;
   color:#68217A;
   border: 1px solid #9730b0;
@@ -286,7 +286,7 @@ hr {
   text-align:center;
 }
 
-#div_intro_breaker{
+.div_intro_breaker{
   display:inline-block;
   width:95%;
   border-top: #c0c0c0 dashed 2px;
@@ -299,12 +299,69 @@ hr {
   border-bottom-right-radius: 15px;
 }
 
+#doc_button{
+  margin: 0px; 
+  font-weight: normal;
+
+  background: #fff;
+  color:#68217A;
+  border: 1px solid #9730b0;
+
+  /*
+  background: #68217A;
+  border: 1px solid transparent
+  */
+}
+
+#doc_button:hover{
+  color: #fff;
+  background: #68217A;
+  border: 1px solid transparent
+}
+
+
+#doc_button:focus{
+  outline: none;
+}
+
 #intro_tab_img{
   width: 40%;
   height: auto;
 }
 
+#intro_tab_document{
+  margin-top: 15px;
+}
+
 .intro_tab_detail{
+  border-radius: 15px;
+
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+.intro_tab_detail_about_content{
+  font-size: 14px;
+  text-align: justify;
+
+  margin-top: 10px;
+  margin-bottom: 15px;
+
+  padding:10px;
+  border-radius: 8px;
+
+  /*If the comment is deleted, div will be displayed as round-box gray div*/
+  /*background: rgb(230, 232, 235);*/
+}
+
+.intro_tab_last{
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   
@@ -312,11 +369,15 @@ hr {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 0px;
+
 }
 
 .intro_tab_detail_element{
   float: left;
-  width: 50%;
+  
+  /*if it is settled as 50%, elements are shown in 2 comlumns.*/
+  width: 100%;
+
   padding-left: 25px;
   padding-right: 15px;
   padding-top: 15px;

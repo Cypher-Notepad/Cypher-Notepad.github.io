@@ -58,44 +58,75 @@ function getIntroTab(){
 
   contentSub = '<div style="font-size:12px;font-color:#777;margin-bottom:20px;">' + 
                   '<h2 id="intro_tab_sub_title">Cypher Notepad</h2>' + 
-                  'Easy, Simple, Secure, and Free' + 
+                  'The user-friendly, plain-text editor with Hybrid Encryption.' + 
                 '</div>' + 
                 '<div id="intro_tab_sub_text">' +
                   '<img id="intro_tab_img" alt="sample image for Cypher Notepad" class="noselect" src="resource/sample_main.png" />' +
+                '</div>' + 
+                '<div id="intro_tab_document">' +
+                  '<button id="doc_button" class="noselect" onclick="getContactTab()">' +
+                    'How it works?<br><font size="1">See all the information of Cypher Notepad in our document</font>' + 
+                  '</button>' +   
                 '</div>';
   htmlDivIntro = htmlDivIntro.replace(/-content_sub-/g, contentSub)
 
 
-  contentDetail = '<div id="div_intro_breaker"></div>' + 
-                  '<div class="div_content_box intro_tab_detail">' + 
+  contentDetail = '<div class="div_intro_breaker"></div>' + 
+                  '<div class="div_content_box intro_tab_detail">' +
+                    '<div id="intro_tab_detail_about">' + 
+                      '<div>' +
+                        '<h3> A B O U T </h3>' + 
+                      '</div>' +
+                      '<div class="intro_tab_detail_about_content">' +
+                        'Cypher Notepad is a plain-text editor for those wanting a quick, convenient solution to protecting their usernames and passwords, account numbers, and any information they deem private. It features hybrid RSA/AES encryption with a Windows-similar interface, offering both security and ease-of-use. Even those with little-to-no experience encrypting their files can put security concerns out of mind — Cypher Notepad will do the heavy lifting.' + 
+                      '</div>' +
+                    '</div>' +  
+                  '</div>' + 
+                  '<div class="div_intro_breaker"></div>' +
+                  '<div class="div_content_box intro_tab_detail">' +
+                    '<div id="intro_tab_detail_why">' + 
+                      '<div>' +
+                        '<h3> Why Another Notepad? </h3>' + 
+                      '</div>' +
+                      '<div class="intro_tab_detail_about_content">' +
+                        'Nowadays there\'s no shortage of applications which provide encryption, but as new software becomes increasingly features-heavy, simplicity falls to short supply. Cypher Notepad is the essence of an encryption application with none of the bloat, and unlike other programs it\s also Java-based —guaranteeing the same interface no matter which OS you use. This belies the fact that for users unsure of the best way to protect their files, Cypher Notepad is an easy and secure solution.' + 
+                      '</div>' +
+                    '</div>' +  
+                  '</div>' + 
+                  '<div class="div_intro_breaker"></div>' +
+                  '<div class="div_content_box  intro_tab_last">' + 
+                    '<div>' +
+                      '<h3> F E A T U R E S </h3>' + 
+                    '</div>' +
+                    '<div class="intro_tab_detail_element">' + 
+                      '<div class="icon ion-md-lock" style="padding-left:10px; font-size: 47px;"></div>' + 
+                      '<div style="margin-left: 60px;">' +
+                        '<b>Secure</b>' + 
+                        '<br>Your data is secured through both RSA and AES hybrid encryption. You choose where that data goes and where it stays.' +
+                      '</div>' + 
+                    '</div>' + 
                     '<div class="intro_tab_detail_element">' + 
                       '<div class="icon fas fa-baby"></div>' + 
                       '<div style="margin-left: 60px;">' +
                         '<b>Easy</b>' + 
-                        '<br>Cypher Notepad is easy to use. Users don\'t need to care about encryption and decryption. Just keep your secret key.'+
+                        '<br>You may not always need encryption, but the option should always be there. Users aren\'t required to know the ins and outs of file security. Just keep your secret key — Cypher Notepad will do the rest.'+
                       '</div>' + 
                     '</div>' +  
                     '<div class="intro_tab_detail_element">' + 
                       '<div class="icon fas fa-bars"></div>' + 
                       '<div style="margin-left: 60px;">' +
                         '<b>Simple</b>' + 
-                        '<br>Cypher Notepad has simple UI. Its interface is extremely familiar to users. Users don\'t need to worry about getting used to it.' +
+                        '<br>Clean, clear software with a familiar face — Cypher Notepad looks no different from Notepad for Windows or TextEdit for Mac. What sets it apart is what\'s under the hood.' +
                       '</div>' + 
-                    '</div>' +  
-                    '<div class="intro_tab_detail_element">' + 
-                      '<div class="icon ion-md-lock" style="padding-left:10px; font-size: 47px;"></div>' + 
-                      '<div style="margin-left: 60px;">' +
-                        '<b>Secure</b>' + 
-                        '<br>Cypher Notepad is the best choice to secure your data. It provides hybrid encryption that uses both RSA and AES.' +
-                      '</div>' + 
-                    '</div>' +  
+                    '</div>' +   
                     '<div class="intro_tab_detail_element">' + 
                       '<div class="icon fab fa-creative-commons-nc" style="font-size: 37px;"></div>' + 
                       '<div style="margin-left: 60px;">' +
                         '<b>Free</b>' + 
-                        '<br>Cypher Notepad is 100% freeware. It is developer\'s pleasure for users to use it. Download it and start protecting your data.' + 
+                        '<br>Cypher Notepad is 100% freeware, which means no advertisements, no paywalls, and no subscriptions. That won\'t change. It\'s also source-available always: ' + 
+                        '<a href="https://github.com/Cypher-Notepad/Cypher-Notepad/" target="_blank">see here</a>.' + 
                       '</div>' + 
-                    '</div>' +  
+                    '</div>' + 
                   '</div>';
   htmlDivIntro  = htmlDivIntro + contentDetail
   htmlDivIntro = '<div id="div_intro_wrapper" class="div_slide_down">' + htmlDivIntro + '</div>'
