@@ -22,12 +22,12 @@ Nowadays there's no shortage of applications which provide encryption, but as ne
 
 ## How it works?
 
-##### Especially, How does this program's encryption work?
+**Especially, How does this program's encryption work?**
 
 It uses hybrid encryption, both RSA and AES: 
 
 |Algorithm|Mode|Padding|Bits|
-|------:|:---:|:---:|:---:|
+|:------:|:---:|:---:|:---:|
 |RSA| - |OAEPWithSHA-1AndMGF1Padding|1024
 |AES|GCM|NoPadding|256
 

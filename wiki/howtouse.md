@@ -2,7 +2,7 @@
 
 ## Hotkey Menus
 
-### File Menu
+ - ### File Menu
 
   |Menu|Description|Hotkey|
   |:------|:---|:---:|
@@ -16,7 +16,7 @@
   |Print|Print file|Ctrl + P
   |Exit|Terminate process| - 
 
-### Edit Menu
+ - ### Edit Menu
 
   |Menu|Description|Hotkey|
   |:------|:---|:---:|
@@ -32,7 +32,7 @@
   |Select All|Select all text|Ctrl + A
   |Time/Date|Input current time and date|F5
 
-### Format Menu
+ - ### Format Menu
 
   |Menu|Description|Hotkey|
   |:------|:---|:---:|
@@ -40,13 +40,13 @@
   |Font|Choose text font | - 
   |Encryption|Turn on/off encryption mode| - 
 
-### View Menu
+ - ### View Menu
 
   |Menu|Description|Hotkey|
-  |:------|:---|:---|
+  |:------|:---|:---:|
   |Status Bar|Show/Hide status bar| - 
 
-### Help Menu
+ - ### Help Menu
 
   |Menu|Description|Hotkey|
   |:------|:---|:---:|

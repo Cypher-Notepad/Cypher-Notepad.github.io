@@ -11,6 +11,7 @@
   - [Windows](installation?id=installation "Installation - Cypher Notepad Documentation")
   - [Linux](installation?id=linux "Installation - Cypher Notepad Documentation")
   - [MacOS](installation?id=macos "Installation - Cypher Notepad Documentation")
+  - [Compatibility with v2.1](installation?id=compatibility-with-v21 "Installation - Cypher Notepad Documentation")
 
 - How To Use
 
@@ -19,10 +20,5 @@
   - [Key Export](howtouse?id=key-export "How to use - Cypher Notepad Documentation")
   - [Key Import](howtouse?id=key-import "How to use - Cypher Notepad Documentation")
   
-
-- [**Releas Note**](release_note.md)
-- [**Contact Us**](sd)
-
-* [Home](/ "HOME - Cypher Notepad Documentation")
-* [Guide](guide.md "PAGE TITLE HERE - Cypher Notepad Documentation")
-> [Guide](guide.md)
+- [Release Note](release_note.md ':class=side-large-clickable')
+- [Contact Us](contact_us.md ':class=side-large-clickable')
