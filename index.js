@@ -64,7 +64,7 @@ function getIntroTab(){
                   '<img id="intro_tab_img" alt="sample image for Cypher Notepad" class="noselect" src="resource/sample_main.png" />' +
                 '</div>' + 
                 '<div id="intro_tab_document">' +
-                  '<button id="doc_button" class="noselect" onclick="getContactTab()">' +
+                  '<button id="doc_button" class="noselect" onclick="window.location.href=\'wiki/#/?coverpage=false\'">' +
                     'How it works?<br><font size="1">See all the information of Cypher Notepad in our document</font>' + 
                   '</button>' +   
                 '</div>';
