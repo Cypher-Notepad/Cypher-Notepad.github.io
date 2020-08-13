@@ -3,3 +3,8 @@
     font-size: 15px !important;
     color: #364149 !important;
 }
+
+.side-title-item{
+    vertical-align: middle;
+    display: inline-block;
+}
