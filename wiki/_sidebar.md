@@ -1,4 +1,4 @@
-<!-- docs/_sidebar.md -->
+<!-- wiki/_sidebar.md -->
 
 - About
 

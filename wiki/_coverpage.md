@@ -1,4 +1,4 @@
-<!-- _coverpage.md -->
+<!-- wiki/_coverpage.md -->
 
 ![logo](https://cypher-notepad.github.io/resource/icon.ico)
 
