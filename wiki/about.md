@@ -15,7 +15,7 @@ It's okay if users have little-to-no experience in encryption; they can focus on
 
 A Windows-similar interface provides familiarity for users with more secure features. 
 
-![sc](https://github.com/LeeDongGeon1996/images/blob/master/main.gif?raw=true)
+![doc_main](https://cypher-notepad.github.io/resource/doc_main.gif)
 
 ## Why another notepad?
 Nowadays there's no shortage of applications which provide encryption, but as new software becomes increasingly features-heavy, simplicity falls to short supply. Cypher Notepad is the essence of an encryption application with none of the bloat, and unlike other programs it's also Java-based — guaranteeing the same interface no matter which OS you use. This belies the fact that for users unsure of the best way to protect their files, Cypher Notepad is an easy and secure solution. 
@@ -36,4 +36,4 @@ It uses hybrid encryption, both RSA and AES:
 
 Then, your RSA secret key is saved internally. 
 
-![algo](https://github.com/LeeDongGeon1996/images/blob/master/algo.PNG?raw=true) 
+![algorithm](https://cypher-notepad.github.io/resource/algorithm.png) 

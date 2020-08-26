@@ -70,7 +70,7 @@
 2. Anyone using your machine can still open your text file using Cypher Notepad, so access the **Menu Bar** and **File -> Export Key**. 
 3. Place the exported key (`.pem` ) wherever you feel it's safe: a chosen directory folder, USB storage, or cloud service. 
 
-![sc](https://github.com/LeeDongGeon1996/images/blob/master/export.gif?raw=true ':size=800')
+![export](https://cypher-notepad.github.io/resource/export.gif ':size=800')
 
 ## Key Import
 
@@ -81,6 +81,6 @@
 !> **Keep in mind this is trading security for convenience.** 
 
 
-![sc](https://github.com/LeeDongGeon1996/images/blob/master/import.gif?raw=true ':size=800')
+![import](https://cypher-notepad.github.io/resource/import.gif ':size=800')
 
 

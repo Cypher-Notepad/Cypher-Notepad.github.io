@@ -6,7 +6,7 @@
 
 Easy, Secure, Simple, Free, and Compatible with any OS
 
-<img src="https://github.com/LeeDongGeon1996/images/blob/master/home-another.gif?raw=true" alt="drawing" width="700px"/>
+<img src="https://cypher-notepad.github.io/resource/doc_home.gif" alt="drawing" width="700px"/>
 
 *This document is written by Mason Blanford and Dong-Geon Lee* 
 <br>
