@@ -2,7 +2,7 @@
 
 ## What is Cypher Notepad?
 
-Cypher Notepad is a plain-text editor for those wanting a quick, convenient solution to protecting their usernames and passwords, account numbers, and any information they deem private. It features hybrid RSA/AES encryption with a Windows-similar interface, offering both security and ease-of-use. Even those with little-to-no experience encrypting their files can put security concerns out of mind; Cypher Notepad will do the heavy lifting.
+Cypher Notepad is a plain-text editor for those wanting a quick, convenient solution to protect their usernames and passwords, account numbers, and any information they deem private. It features hybrid RSA/AES encryption with a Windows-similar interface, offering both security and ease-of-use. Even those with little-to-no experience encrypting their files can put security concerns out of mind; Cypher Notepad will do the heavy lifting.
 
 **(TL;DR)**
 Cypher Notepad is a text editor for users wanting quick and convenient encryption: 

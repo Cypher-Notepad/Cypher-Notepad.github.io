@@ -67,7 +67,7 @@ function getIntroTab(){
                 '</div>' + 
                 '<div id="intro_tab_document">' +
                   '<button id="doc_button" class="noselect" onclick="window.location.href=\'wiki/#/?coverpage=false\'">' +
-                    'How it works?<br><font size="1">See all the information of Cypher Notepad in our document</font>' + 
+                    'How it works?<br><font size="1">See all the information of Cypher Notepad in our documentation</font>' + 
                   '</button>' +   
                 '</div>';
   htmlDivIntro = htmlDivIntro.replace(/-content_sub-/g, contentSub)
@@ -80,7 +80,7 @@ function getIntroTab(){
                         '<h3> A B O U T </h3>' + 
                       '</div>' +
                       '<div class="intro_tab_detail_about_content">' +
-                        'Cypher Notepad is a plain-text editor for those wanting a quick, convenient solution to protecting their usernames and passwords, account numbers, and any information they deem private. It features hybrid RSA/AES encryption with a Windows-similar interface, offering both security and ease-of-use. Even those with little-to-no experience encrypting their files can put security concerns out of mind — Cypher Notepad will do the heavy lifting.' + 
+                        'Cypher Notepad is a plain-text editor for those wanting a quick, convenient solution to protect their usernames and passwords, account numbers, and any information they deem private. It features hybrid RSA/AES encryption with a Windows-similar interface, offering both security and ease-of-use. Even those with little-to-no experience encrypting their files can put security concerns out of mind — Cypher Notepad will do the heavy lifting.' + 
                       '</div>' +
                     '</div>' +  
                   '</div>' + 
@@ -91,7 +91,7 @@ function getIntroTab(){
                         '<h3> Why Another Notepad? </h3>' + 
                       '</div>' +
                       '<div class="intro_tab_detail_about_content">' +
-                        'Nowadays there\'s no shortage of applications which provide encryption, but as new software becomes increasingly features-heavy, simplicity falls to short supply. Cypher Notepad is the essence of an encryption application with none of the bloat, and unlike other programs it\s also Java-based —guaranteeing the same interface no matter which OS you use. This belies the fact that for users unsure of the best way to protect their files, Cypher Notepad is an easy and secure solution.' + 
+                        'Nowadays there\'s no shortage of applications which provide encryption, but as new software becomes increasingly features-heavy, simplicity falls to short supply. Cypher Notepad is the essence of an encryption application with none of the bloat, and unlike other programs it\'s also Java-based — guaranteeing the same interface no matter which OS you use. This belies the fact that for users unsure of the best way to protect their files, Cypher Notepad is an easy and secure solution.' + 
                       '</div>' +
                     '</div>' +  
                   '</div>' + 
