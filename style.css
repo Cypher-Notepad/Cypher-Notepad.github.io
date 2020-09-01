@@ -299,6 +299,10 @@ hr {
   border-bottom-right-radius: 15px;
 }
 
+.badges{
+  margin:7px;
+}
+
 #doc_button{
   margin: 0px; 
   font-weight: normal;

@@ -58,6 +58,8 @@ function getIntroTab(){
 
   contentSub = '<div style="font-size:12px;font-color:#777;margin-bottom:20px;">' + 
                   '<h2 id="intro_tab_sub_title">Cypher Notepad</h2>' + 
+                  '<img alt="GitHub release (latest by date)" class="badges" src="https://img.shields.io/github/v/release/cypher-notepad/cypher-notepad?color=%239730b0&style=flat-square" />' + 
+                  '<img alt="GitHub All Releases" class="badges" src="https://img.shields.io/github/downloads/cypher-notepad/cypher-notepad/total?color=%239730b0&style=flat-square" /><br>' + 
                   'The user-friendly, plain-text editor with Hybrid Encryption.' + 
                 '</div>' + 
                 '<div id="intro_tab_sub_text">' +
