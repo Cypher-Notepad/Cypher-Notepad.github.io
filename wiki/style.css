@@ -8,3 +8,9 @@
     vertical-align: middle;
     display: inline-block;
 }
+
+.badges{
+    margin:5px;
+    margin-top:10px;
+    margin-bottom:0px;
+  }
