@@ -593,6 +593,12 @@ hr {
   }
 }
 
+@media (max-width: 742px){
+  .div_main{
+    margin-top: 140px;
+  }
+}
+
 @media (max-width: 660px){
 
   .intro_tab_detail_element{
@@ -610,9 +616,14 @@ hr {
 
 
 @media (max-width: 599px){
+  #nav_btn_doc{
+    display: none;
+  }
+  /*
   .div_main{
     margin-top: 140px;
   }
+  */
   .nav_buttons{
     margin-left:10px;
   }
