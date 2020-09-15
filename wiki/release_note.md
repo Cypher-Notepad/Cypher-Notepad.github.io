@@ -1,3 +1,5 @@
+<div id='latest-release'>Latest release</div>
+
 # v2.1 release, 28 May 2020
 
 ## Release Info
@@ -16,4 +18,4 @@
  * [@sigmanor](https://github.com/Sigmanor) ([#2](https://github.com/Cypher-Notepad/Cypher-Notepad/issues/2))
  * [@maravento](https://github.com/maravento) ([#3](https://github.com/Cypher-Notepad/Cypher-Notepad/issues/3))
 
-##### Copyright 2019-2020 Dong-Geon Lee. Some Rights Reserve
+##### Copyright 2019-2020 Dong-Geon Lee. Some Rights Reserved.

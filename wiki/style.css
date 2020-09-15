@@ -14,3 +14,20 @@
     margin-top:10px;
     margin-bottom:0px;
   }
+
+#release-info{
+    margin-top: 20px;
+}
+
+#latest-release{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    display: inline-block;
+    padding: 0 7px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    border-radius: 2em;
+    background-color: initial!important;
+    border: 1px solid #9730b0;
+    color: #68217A;
+}
