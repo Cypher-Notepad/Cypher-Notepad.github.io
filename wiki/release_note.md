@@ -1,5 +1,43 @@
 <div id='latest-release'>Latest release</div>
 
+# v3.0 release, 28 Sep 2020
+<div class='download-button' id='download-windows' onclick="location.href='https://cypher-notepad.github.io/wiki/#/installation?id=windows'">Windows</div>
+<div class='download-button' onclick="location.href='https://cypher-notepad.github.io/wiki/#/installation?id=linux'">Linux</div>
+<div class='download-button' onclick="location.href='https://cypher-notepad.github.io/wiki/#/installation?id=macos'">Mac</div>
+
+## Release Info
+ * [**security**] change the encryption algorithm (AES[ECB] -> AES[GCM])
+   > There is an awesome article that inspired me to change the encrpytion algorithm and is really well-described.<br>Now, Cypher Notepad is more secure. Check out this.<br>
+  [Security Best Practices: Symmetric Encryption with AES in Java and Android](https://proandroiddev.com/security-best-practices-symmetric-encryption-with-aes-in-java-7616beaaade9)
+ * [**security**] create the new key when exporting secret key
+ * [**feature**] add a sending feedback
+ * [**feature**] add a showing help
+ * [**feature**] add a checking for updates
+ * [**improvement**] [`SecureRandom`](https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html) class performance issue ([#4](https://github.com/Cypher-Notepad/Cypher-Notepad/issues/4))
+ * [**improvement**] UI improvement on Linux system
+ * [**bug-fix**] fix some minor bugs 
+
+## Compatibility
+ * Cypher Notepad 3.0 is incompatible with the version 2.1.
+ * Future versions will be compatible with prior versions dating back to version 3.0.
+ * See the details in [here](https://cypher-notepad.github.io/wiki/#/installation?id=compatibility-with-v21)
+
+## File Hash
+ * MD5: d717d0292a05d6cdf2cada7fe1fe980d
+ * SHA-1: 663a9f6944f742d04f980a550592e51874ea2139
+ * [Safe from the virus](https://www.virustotal.com/gui/file/25f54685e17e98a84a08e9d03dc805bc607802e1ad8ee1a772a614f2b1c83035/summary)
+
+## Thanks to...
+ * Mason Blanford (Documentation)
+ * Min-Seok Lee (Language)
+ * Jeong-Hwan Kim (QA)
+ * Tae-Hyun Park (QA)
+ * Jin-Ha Yoo (QA)
+
+##### Copyright 2019-2020 Dong-Geon Lee. Some Rights Reserved.
+
+<hr class="release-note-breaker">
+
 # v2.1 release, 28 May 2020
 
 ## Release Info
