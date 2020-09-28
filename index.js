@@ -161,7 +161,7 @@ function getDownloadTab(){
                     '</div>';
   htmlDivDown = htmlDivDown.replace(/-box_content-/g, contentDownload)
 
-  contentMainTemp = '<h2>🎉 Now Available on Linux 🎉</h2>'
+  contentMainTemp = '<h2>🎉 Cypher Notepad 3.0 released 🎉</h2>'
   contentMain = contentMainTemp + '<a id="download_windows" href="https://cyphernotepad.com/wiki/#/installation?id=installation" target="_blank" class="download">\
                       <svg height="700px" width="700px" viewBox="0 0 512 499.81" version="1.1" id="windows">\
                         <path d="M0,67.048l207.238-27.137v197.803H0V67.048z M207.238,459.904L0,432.762V262.096h207.238V459.904z M512,\
@@ -254,10 +254,10 @@ function getDownloadTab(){
 
   contentSub = '<div> <h2 class="tab_sub_title">Download and Protect your data!<h2> </div>' + 
                 '<div class="tab_sub_text">' +
-                 '<h3> Cypher Notepad 2.1 </h3>' +
+                 '<h3> Cypher Notepad 3.0 </h3>' +
                  '<div id="dowload_tab_sub_text_detail">' + 
                   '<ul class="download_detail">' + 
-                     '<li>Release Date : 28 May 2020</li>' + 
+                     '<li>Release Date : 28 Sep 2020</li>' + 
                      '<li>Requirement : The program requires Java Runtime Environment(JRE) 1.8 or higher. But don\'t worry about it. ' + 
                      'Our extremely easy guide will lead you.' + 
                      '</li>' + 
