@@ -1,7 +1,7 @@
 
 # Installation for v2.1
 
-?> **This installation guide is for version 2.1**. We highly recommend you to install the latest version of Cypher Notepad.
+!> **This installation guide is for version 2.1**. We highly recommend you to install the latest version of Cypher Notepad.
 
 ## Windows
 
