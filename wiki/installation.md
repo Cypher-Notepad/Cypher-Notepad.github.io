@@ -2,27 +2,66 @@
 
 ?> **This installation guide is for version 3.0**. If you want to install previous version, [see here](https://cypher-notepad.github.io/wiki/#/installation_previous).
 
-## Windows
+## <i class="fab fa-windows"></i> Windows
 
 * **Requirement: Java Runtime Environment (JRE) 1.8 or higher** 
-* If you have JRE (recommended 1.8) on your device, [download this](https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v2.1/Cypher.Notepad.exe). 
-* Or [download another version](https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v2.1/Cypher.Notepad.Setup.bundled.JRE.exe) with bundled JRE 1.8.  
-* You can also download JRE 1.8 separately by yourself [here](https://www.oracle.com/java/technologies/javase-jre8-downloads.html). (But we highly recommend downloading the bundled JRE version which is minimized to fit the program.) 
+* **Do you have JRE on your computer?**
+<table class='download_table'>
+    <tr>
+        <th> - </th>
+        <th>File Name</th>
+        <th>File Size</th>
+        <th>Download</th>
+    </tr>
+    <tr>
+        <td><b>Yes, I have</b></td>
+        <td>Cypher-Notepad.exe</td>
+        <td>0.25MB</td>
+        <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/Cypher-Notepad.exe'>Download</a></td>
+    </tr>
+    <tr>
+        <td><b>No, I don't</b></td>
+        <td rowspan='2'>Cypher-Notepad-Setup-bundled-jre.exe</td>
+        <td rowspan='2'>27.1MB</td>
+        <td rowspan='2'><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/Cypher-Notepad-Setup-bundled-jre.exe'>Download</a></td>
+    </tr>
+    <tr>
+        <td><b>I don't know</b></td>
+    </tr>
+</table>
 
-(2020-05-28, Version 2.1.0.0; @LeeDongGeon1996)
+(2020-10-06, Version 3.0.0.0; @LeeDongGeon1996)
 
-## Linux
+## <i class="fab fa-linux"></i> Linux
 
 * **Requirement: Java Runtime Environment (JRE) 1.8 or higher**
-* Download [this debian package](https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v2.1/cypher-notepad-2.1-linux.deb) and run.
-* Or you also can install by running these terminal commands: 
+
+<!-- tabs:start -->
+
+#### ** DEB **
+* Debian, Ubuntu
+* You can easily install by running these terminal commands: 
 
 ```
-wget https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v2.1/cypher-notepad-2.1-linux.deb
-sudo dpkg -i cypher-notepad-2.1-linux.deb
+wget https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/cypher-notepad-3.0-linux.deb
+sudo dpkg -i cypher-notepad-3.0-linux.deb
 echo "alias cypher-notepad='bash /opt/CypherNotepad/CypherNotepadLauncher'" >> ~/.bashrc 
 source ~/.bashrc
 ```
+
+#### ** RPM **
+* Red Hat, Fedora, SUSE
+* You can easily install by running these terminal commands: 
+
+```
+wget https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/cypher-notepad-3.0-linux.rpm
+sudo rpm -i cypher-notepad-3.0-linux.rpm
+echo "alias cypher-notepad='bash /opt/CypherNotepad/CypherNotepadLauncher'" >> ~/.bashrc 
+source ~/.bashrc
+```
+
+
+<!-- tabs:end -->
 
 * **(Optional)** Create a shortcut in the home directory: 
 
@@ -36,10 +75,10 @@ sudo chmod 755 ${HOME}/CypherNotepad.desktop
 ```
 bash /opt/CypherNotepad/scripts/remove_bundled_jre.sh
 ```
- (2020-07-02, Version 2.1.0.0; @LeeDongGeon1996)
+ (2020-10-06, Version 3.0.0.0; @LeeDongGeon1996)
 
 
-## MacOS
+## <i class="fab fa-apple"></i> MacOS
 
 Coming Soon
 

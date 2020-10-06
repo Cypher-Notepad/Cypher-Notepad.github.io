@@ -63,3 +63,7 @@
 hr.release-note-breaker {
     border-top: 3px double #cccccc !important;
 }
+
+.download_table{
+    text-align: center;
+}

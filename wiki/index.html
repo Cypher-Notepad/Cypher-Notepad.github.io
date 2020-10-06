@@ -8,6 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
 
   <title>Cypher Notepad Documentation</title>
@@ -44,11 +45,26 @@
       loadSidebar: true,
       coverpage: loadCoverpage,
       onlyCover: false,
+      tabs: {
+      persist    : true,      // default
+      sync       : true,      // default
+      theme      : 'material', // meterial
+      tabComments: true,      // default
+      tabHeadings: true       // default
+      },
       
       //dev
       //basePath: 'https://leedonggeon1996.github.io/Cypher-Notepad.github.io/wiki/',
     }
   </script>
+  <style>
+    :root {
+      --docsifytabs-border-color: #ededed;
+      --docsifytabs-tab-highlight-color: purple;
+    }
+  </style>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
 </body>
 </html>
