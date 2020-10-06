@@ -9,8 +9,8 @@
 - Installation
 
   - [Windows](installation?id=installation "Installation - Cypher Notepad Documentation")
-  - [Linux](installation?id=linux "Installation - Cypher Notepad Documentation")
-  - [MacOS](installation?id=macos "Installation - Cypher Notepad Documentation")
+  - [Linux](installation?id=-linux "Installation - Cypher Notepad Documentation")
+  - [MacOS](installation?id=-macos "Installation - Cypher Notepad Documentation")
   - [Compatibility with v2.1](installation?id=compatibility-with-v21 "Installation - Cypher Notepad Documentation")
 
 - How To Use

@@ -1,9 +1,9 @@
 <div id='latest-release'>Latest release</div>
 
 # v3.0 release, 28 Sep 2020
-<div class='download-button' id='download-windows' onclick="location.href='https://cypher-notepad.github.io/wiki/#/installation?id=windows'">Windows</div>
-<div class='download-button' onclick="location.href='https://cypher-notepad.github.io/wiki/#/installation?id=linux'">Linux</div>
-<div class='download-button' onclick="location.href='https://cypher-notepad.github.io/wiki/#/installation?id=macos'">Mac</div>
+<div class='download-button' id='download-windows' onclick="location.href='https://cypher-notepad.github.io/wiki/#/installation?id=-windows'">Windows</div>
+<div class='download-button' onclick="location.href='https://cypher-notepad.github.io/wiki/#/installation?id=-linux'">Linux</div>
+<div class='download-button' onclick="location.href='https://cypher-notepad.github.io/wiki/#/installation?id=-macos'">Mac</div>
 
 ## Release Info
  * [**security**] change the encryption algorithm (AES[ECB] -> AES[GCM])
@@ -15,6 +15,7 @@
  * [**feature**] add a checking for updates
  * [**improvement**] [`SecureRandom`](https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html) class performance issue ([#4](https://github.com/Cypher-Notepad/Cypher-Notepad/issues/4))
  * [**improvement**] UI improvement on Linux system
+ * [**improvement**] reduce program size
  * [**bug-fix**] fix some minor bugs 
 
 ## Compatibility
@@ -33,6 +34,52 @@
  * Jeong-Hwan Kim (QA)
  * Tae-Hyun Park (QA)
  * Jin-Ha Yoo (QA)
+
+
+<br>
+<table class='file_list_table'>
+    <tr>
+        <th> OS </th>
+        <th>File Name</th>
+        <th>File Size</th>
+        <th>Download</th>
+    </tr>
+    <tr>
+        <td class='header_col' rowspan='2'><b>Windows</b></td>
+        <td class='file_name'>Cypher-Notepad.exe</td>
+        <td>0.25MB</td>
+        <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/Cypher-Notepad.exe'>Download</a></td>
+    </tr>
+    <tr>
+        <td class='file_name'>Cypher-Notepad-Setup-bundled-jre.exe</td>
+        <td>27.1MB</td>
+        <td ><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/Cypher-Notepad-Setup-bundled-jre.exe'>Download</a></td>
+    </tr>
+    <tr>
+        <td class='header_col' rowspan='2'><b>Linux</b></td>
+        <td class='file_name'>cypher-notepad-3.0-linux.deb</td>
+        <td>24.8MB</td>
+        <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/cypher-notepad-3.0-linux.deb'>Download</a></td>
+    </tr>
+    <tr>
+        <td class='file_name'>cypher-notepad-3.0-linux.rpm</td>
+        <td>36.1MB</td>
+        <td ><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/cypher-notepad-3.0-linux.rpm'>Download</a></td>
+    </tr>
+    <tr>
+        <td class='header_col'><b>Mac</b></td>
+        <td class='file_name'>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td class='header_col'><b>-</b></td>
+        <td class='file_name'>Cypher-Notepad-3.0-release.jar</td>
+        <td>0.2MB</td>
+        <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/Cypher-Notepad-3.0-release.jar'>Download</a></td>
+    </tr>
+    
+</table>
 
 ##### Copyright 2019-2020 Dong-Geon Lee. Some Rights Reserved.
 
@@ -55,5 +102,46 @@
  * Tae-Hyun Park (QA)
  * [@sigmanor](https://github.com/Sigmanor) ([#2](https://github.com/Cypher-Notepad/Cypher-Notepad/issues/2))
  * [@maravento](https://github.com/maravento) ([#3](https://github.com/Cypher-Notepad/Cypher-Notepad/issues/3))
+
+
+<br>
+<table class='file_list_table'>
+    <tr>
+        <th> OS </th>
+        <th>File Name</th>
+        <th>File Size</th>
+        <th>Download</th>
+    </tr>
+    <tr>
+        <td class='header_col' rowspan='2'><b>Windows</b></td>
+        <td class='file_name'>Cypher.Notepad.exe</td>
+        <td>0.26MB</td>
+        <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v2.1/Cypher.Notepad.exe'>Download</a></td>
+    </tr>
+    <tr>
+        <td class='file_name'>Cypher.Notepad.Setup.bundled.JRE.exe</td>
+        <td>32.1MB</td>
+        <td ><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v2.1/Cypher.Notepad.Setup.bundled.JRE.exe'>Download</a></td>
+    </tr>
+    <tr>
+        <td class='header_col'><b>Linux</b></td>
+        <td class='file_name'>cypher-notepad-2.1-linux.deb</td>
+        <td>47.6MB</td>
+        <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v2.1/cypher-notepad-2.1-linux.deb'>Download</a></td>
+    </tr>
+    <tr>
+        <td class='header_col'><b>Mac</b></td>
+        <td class='file_name'>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td class='header_col' rowspan='2'><b>-</b></td>
+        <td class='file_name'>Cypher-Notepad-2.1-release.jar</td>
+        <td>0.2MB</td>
+        <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v2.1/Cypher-Notepad-2.1-release.jar'>Download</a></td>
+    </tr>
+    
+</table>
 
 ##### Copyright 2019-2020 Dong-Geon Lee. Some Rights Reserved.
