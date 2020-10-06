@@ -71,3 +71,15 @@ hr.release-note-breaker {
 .file_name{
     text-align: left;
 }
+
+.icon-virus-free{
+    color: #0a7ed1;
+}
+
+.span-virus-free{
+    font-weight: normal !important;
+    text-decoration: none !important;
+    font-size: 15px !important;
+    color: #34495e !important;
+    font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif !important;
+}

@@ -30,6 +30,7 @@
     </tr>
 </table>
 
+<i class="icon ion-md-checkmark-circle icon-virus-free"></i> <a href='https://cypher-notepad.github.io/wiki/#/release_note' class='span-virus-free'>100% Virus Free!</a><br>
 (2020-10-06, Version 3.0.0.0; @LeeDongGeon1996)
 
 ## <i class="fab fa-linux"></i> Linux
@@ -75,7 +76,9 @@ sudo chmod 755 ${HOME}/CypherNotepad.desktop
 ```
 bash /opt/CypherNotepad/scripts/remove_bundled_jre.sh
 ```
- (2020-10-06, Version 3.0.0.0; @LeeDongGeon1996)
+
+<i class="icon ion-md-checkmark-circle icon-virus-free"></i> <a href='https://cypher-notepad.github.io/wiki/#/release_note' class='span-virus-free'>100% Virus Free!</a><br>
+(2020-10-06, Version 3.0.0.0; @LeeDongGeon1996)
 
 
 ## <i class="fab fa-apple"></i> MacOS
