@@ -1,6 +1,7 @@
-# Installation
 
-?> **This installation guide is for version 3.0**. If you want to install previous version, [see here](https://cypher-notepad.github.io/wiki/#/installation_previous).
+# Installation for v2.1
+
+?> **This installation guide is for version 2.1**. We highly recommend you to install the latest version of Cypher Notepad.
 
 ## Windows
 
@@ -42,15 +43,3 @@ bash /opt/CypherNotepad/scripts/remove_bundled_jre.sh
 ## MacOS
 
 Coming Soon
-
-
-## Compatibility with v2.1
-Cypher Notepad's configuration directory has changed from `${HOME}/Crypto-Notepad` to <code>${HOME}/Cypher-Notepad</code>. The following file must be changed to the new directory for settings to be kept (if you want): 
-
-* <code>crypto-notepad.properties</code> -> <code>cypher-notepad.properties</code>
-
-Unfortunately, however, the encryption algorithm has changed after version 2.1 [AES(ECB) to AES(GCM)]. Files encrypted with version 2.1 cannot be decrypted on version 3.0 and higher. Please encrypt again after decrypting in v2.1. 
-
-?> **Future versions will be compatible with prior versions dating back to version 3.0.**
-
-
