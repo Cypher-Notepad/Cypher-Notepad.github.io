@@ -169,7 +169,7 @@ function getDownloadTab(){
                       </svg>\
                       <span>Windows</span>\
                     </a>\
-                    <a id="download_linux" href="https://cyphernotepad.com/wiki/#/installation?id=linux" target="_blank" class="download">\
+                    <a id="download_linux" href="https://cyphernotepad.com/wiki/#/installation?id=-linux" target="_blank" class="download">\
                       <svg height="700px" width="700px" viewBox="0 0 1000 1000" version="1.1" id="linux">\
                         <path d="M369.954 229.402q-6.138 .558 -8.649 5.859t-4.743 5.301q-2.79 .558 -2.79 -2.79 0 \
                         -6.696 10.602 -8.37h5.58zm48.546 7.812q-2.232 .558 -6.417 -3.627t-9.765 -2.511q13.392 \
