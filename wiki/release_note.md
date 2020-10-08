@@ -24,9 +24,60 @@
  * See the details in [here](https://cypher-notepad.github.io/wiki/#/installation?id=compatibility-with-v21)
 
 ## File Hash
- * MD5: d717d0292a05d6cdf2cada7fe1fe980d
- * SHA-1: 663a9f6944f742d04f980a550592e51874ea2139
- * [Safe from the virus](https://www.virustotal.com/gui/file/25f54685e17e98a84a08e9d03dc805bc607802e1ad8ee1a772a614f2b1c83035/summary)
+
+<details>
+<summary> Cypher-Notepad.exe </summary>
+<ul>
+ <li> MD5: 808d0c6c92aeaddf0e9c6d90e15d81ae </li>
+ <li> SHA-1: 4687fb0f179cc6a7ce919b88c4603c97a59a857c </li>
+ <li> <a href='https://www.virustotal.com/gui/file/6337ba73b3a3710e006a7c4030f0b3a31dbe4a10176635ab154dd8a6a844f5d5/summary'>Safe from the virus</a> </li>
+</ul>
+</details>
+
+<br>
+
+<details>
+<summary> Cypher-Notepad-Setup-bundled-jre.exe </summary>
+<ul>
+ <li> MD5: daf9057811f027ed9c87c0ffaaf8d70d </li>
+ <li> SHA-1: f94f946685bef113182c60fa1458e03c757a14d9 </li>
+ <li> <a href='https://www.virustotal.com/gui/file/e7fd9d7fe872846ce89db63182cef121d7d5d379230ec46c2cf89b24a81886c5/summary'>Safe from the virus</a> </li>
+</ul>
+</details>
+
+<br>
+
+<details>
+<summary> cypher-notepad-3.0-linux.deb </summary>
+<ul>
+ <li> MD5: e80822d48de9b08f40d387b501658d21 </li>
+ <li> SHA-1: 96f26b4c48bbbb3ba9479a0677d23a85c820ccf4 </li>
+ <li> <a href='https://www.virustotal.com/gui/file/ab67757d1938eeb736b3e4a901253605c019147af55ad394b80c09671d925196/summary'>Safe from the virus</a> </li>
+</ul>
+</details>
+
+<br>
+
+<details>
+<summary> cypher-notepad-3.0-linux.rpm </summary>
+<ul>
+ <li> MD5: aa45a3e0fa136fb28e85edb9ad488592 </li>
+ <li> SHA-1: 1bbd00367449538aa000d67f3a810c58c8569d63 </li>
+ <li> <a href='https://www.virustotal.com/gui/file/0c509c71c745097b566c194d66255a3c6003ab0c108ad637d25a24c0c36e7832/summary'>Safe from the virus</a> </li>
+</ul>
+</details>
+
+<br>
+
+<details>
+<summary> Cypher-Notepad-3.0-release.jar </summary>
+<ul>
+ <li> MD5: e94336da762429371b09e19706f8d932 </li>
+ <li> SHA-1: a4361ff4d33ba74fa966cf64f669b1cf7d1a2dd2 </li>
+ <li> <a href='https://www.virustotal.com/gui/file/9861481b697b4335f71f67dd93525dedf60623a5e15ac827a6ae042e925e3d03/summary'>Safe from the virus</a> </li>
+</ul>
+</details>
+
 
 ## Thanks to...
  * Mason Blanford (Documentation)
@@ -83,7 +134,7 @@
         <td class='file_name'>Cypher-Notepad-3.0-release.jar</td>
         <td>0.2MB</td>
         <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/Cypher-Notepad-3.0-release.jar'>Download</a></td>
-        <td><i class="icon ion-md-checkmark-circle icon-virus-free"></i></td>
+        <td><a href=''><i class="icon ion-md-checkmark-circle icon-virus-free"></i></a></td>
     </tr>
     
 </table>
