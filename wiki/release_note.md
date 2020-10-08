@@ -7,12 +7,12 @@
 
 ## Release Info
  * [**security**] change the encryption algorithm (AES[ECB] -> AES[GCM])
-   > There is an awesome article that inspired me to change the encrpytion algorithm and is really well-described.<br>Now, Cypher Notepad is more secure. Check out this.<br>
+   > There is an awesome article that inspired me to change the encrpytion algorithm and is really well-described.<br>Now, Cypher Notepad is more secure. Check this out.<br>
   [Security Best Practices: Symmetric Encryption with AES in Java and Android](https://proandroiddev.com/security-best-practices-symmetric-encryption-with-aes-in-java-7616beaaade9)
  * [**security**] create the new key when exporting secret key
- * [**feature**] add a sending feedback
- * [**feature**] add a showing help
- * [**feature**] add a checking for updates
+ * [**feature**] add sending feedback
+ * [**feature**] add showing help
+ * [**feature**] add checking for updates
  * [**improvement**] [`SecureRandom`](https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html) class performance issue ([#4](https://github.com/Cypher-Notepad/Cypher-Notepad/issues/4))
  * [**improvement**] UI improvement on Linux system
  * [**improvement**] reduce program size
@@ -21,7 +21,7 @@
 ## Compatibility
  * Cypher Notepad 3.0 is incompatible with the version 2.1.
  * Future versions will be compatible with prior versions dating back to version 3.0.
- * See the details in [here](https://cypher-notepad.github.io/wiki/#/installation?id=compatibility-with-v21)
+ * See more details [here](https://cypher-notepad.github.io/wiki/#/installation?id=compatibility-with-v21)
 
 ## File Hash
 

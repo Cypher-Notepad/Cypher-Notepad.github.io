@@ -1,11 +1,11 @@
 # Installation
 
-?> **This installation guide is for version 3.0**. If you want to install previous version, [see here](https://cypher-notepad.github.io/wiki/#/installation_previous).
+?> **This installation guide is for version 3.0**. If you want to install previous versions, [click here](https://cypher-notepad.github.io/wiki/#/installation_previous).
 
 ## <i class="fab fa-windows"></i> Windows
 
 * **Requirement: Java Runtime Environment (JRE) 1.8 or higher** 
-* **Do you have JRE on your computer?**
+* **Do you have JRE installed on your computer?**
 <table class='download_table'>
     <tr>
         <th> - </th>
