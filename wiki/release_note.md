@@ -101,26 +101,26 @@
         <td class='file_name'>Cypher-Notepad.exe</td>
         <td>0.25MB</td>
         <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/Cypher-Notepad.exe'>Download</a></td>
-        <td><i class="icon ion-md-checkmark-circle icon-virus-free"></i></td>
+        <td><a href='https://www.virustotal.com/gui/file/6337ba73b3a3710e006a7c4030f0b3a31dbe4a10176635ab154dd8a6a844f5d5/summary'><i class="icon ion-md-checkmark-circle icon-virus-free"></i></a></td>
     </tr>
     <tr>
         <td class='file_name'>Cypher-Notepad-Setup-bundled-jre.exe</td>
         <td>27.1MB</td>
         <td ><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/Cypher-Notepad-Setup-bundled-jre.exe'>Download</a></td>
-        <td><i class="icon ion-md-checkmark-circle icon-virus-free"></i></td>
+        <td><a href='https://www.virustotal.com/gui/file/e7fd9d7fe872846ce89db63182cef121d7d5d379230ec46c2cf89b24a81886c5/summary'><i class="icon ion-md-checkmark-circle icon-virus-free"></i></a></td>
     </tr>
     <tr>
         <td class='header_col' rowspan='2'><b>Linux</b></td>
         <td class='file_name'>cypher-notepad-3.0-linux.deb</td>
         <td>24.8MB</td>
         <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/cypher-notepad-3.0-linux.deb'>Download</a></td>
-        <td><i class="icon ion-md-checkmark-circle icon-virus-free"></i></td>
+        <td><a href='https://www.virustotal.com/gui/file/ab67757d1938eeb736b3e4a901253605c019147af55ad394b80c09671d925196/summary'><i class="icon ion-md-checkmark-circle icon-virus-free"></i></a></td>
     </tr>
     <tr>
         <td class='file_name'>cypher-notepad-3.0-linux.rpm</td>
         <td>36.1MB</td>
         <td ><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/cypher-notepad-3.0-linux.rpm'>Download</a></td>
-        <td><i class="icon ion-md-checkmark-circle icon-virus-free"></i></td>
+        <td><a href='https://www.virustotal.com/gui/file/0c509c71c745097b566c194d66255a3c6003ab0c108ad637d25a24c0c36e7832/summary'><i class="icon ion-md-checkmark-circle icon-virus-free"></i></a></td>
     </tr>
     <tr>
         <td class='header_col'><b>Mac</b></td>
@@ -134,7 +134,7 @@
         <td class='file_name'>Cypher-Notepad-3.0-release.jar</td>
         <td>0.2MB</td>
         <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/Cypher-Notepad-3.0-release.jar'>Download</a></td>
-        <td><a href=''><i class="icon ion-md-checkmark-circle icon-virus-free"></i></a></td>
+        <td><a href='https://www.virustotal.com/gui/file/9861481b697b4335f71f67dd93525dedf60623a5e15ac827a6ae042e925e3d03/summary'><i class="icon ion-md-checkmark-circle icon-virus-free"></i></a></td>
     </tr>
     
 </table>
