@@ -42,4 +42,4 @@ bash /opt/CypherNotepad/scripts/remove_bundled_jre.sh
 
 ## MacOS
 
-Coming Soon
+Sorry, Not supported in this version.

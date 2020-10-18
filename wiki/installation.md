@@ -83,7 +83,20 @@ bash /opt/CypherNotepad/scripts/remove_bundled_jre.sh
 
 ## <i class="fab fa-apple"></i> MacOS
 
-Coming Soon
+* **Requirement: Java Runtime Environment (JRE) 1.8 or higher**
+* **Please download the `.pkg` file below and follow the instructions inside. 
+<table class='download_table'>
+    <tr>
+        <th>File Name</th>
+        <th>File Size</th>
+        <th>Download</th>
+    </tr>
+    <tr>
+        <td>cypher-notepad-macosx.pkg</td>
+        <td>36.9MB</td>
+        <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/cypher-notepad-macosx.pkg'>Download</a></td>
+    </tr>
+</table>
 
 
 ## Compatibility with v2.1
