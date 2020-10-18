@@ -3,7 +3,7 @@
 # v3.0 release, 28 Sep 2020
 <div class='download-button' id='download-windows' onclick="location.href='https://cypher-notepad.github.io/wiki/#/installation?id=-windows'">Windows</div>
 <div class='download-button' onclick="location.href='https://cypher-notepad.github.io/wiki/#/installation?id=-linux'">Linux</div>
-<div class='download-button' onclick="location.href='https://cypher-notepad.github.io/wiki/#/installation?id=-macos'">Mac</div>
+<div class='download-button' onclick="location.href='https://cypher-notepad.github.io/wiki/#/installation?id=-macos'">MacOS</div>
 
 ## Release Info
  * [**security**] change the encryption algorithm (AES[ECB] -> AES[GCM])
@@ -70,6 +70,17 @@
 <br>
 
 <details>
+<summary> cypher-notepad-macosx.pkg </summary>
+<ul>
+ <li> MD5: 82d7c3d683036cdc30816d4750a2eff6 </li>
+ <li> SHA-1: 8e548cafa38d735b7205dd74f305b967b829b651 </li>
+ <li> <a href='https://www.virustotal.com/gui/file/31d9d893b65d3680fe0fa8b1b3de9ebc30f8271bf33e5c40b8bb5fdb6f40807a/summary'>Safe from the virus</a> </li>
+</ul>
+</details>
+
+<br>
+
+<details>
 <summary> Cypher-Notepad-3.0-release.jar </summary>
 <ul>
  <li> MD5: e94336da762429371b09e19706f8d932 </li>
@@ -78,13 +89,13 @@
 </ul>
 </details>
 
-
 ## Thanks to...
  * Mason Blanford (Documentation)
  * Min-Seok Lee (Language)
  * Jeong-Hwan Kim (QA)
  * Tae-Hyun Park (QA)
  * Jin-Ha Yoo (QA)
+ * Dong-Geon Lim (MacOS env support)
 
 
 <br>
@@ -123,11 +134,11 @@
         <td><a href='https://www.virustotal.com/gui/file/0c509c71c745097b566c194d66255a3c6003ab0c108ad637d25a24c0c36e7832/summary'><i class="icon ion-md-checkmark-circle icon-virus-free"></i></a></td>
     </tr>
     <tr>
-        <td class='header_col'><b>Mac</b></td>
-        <td class='file_name'>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td class='header_col'><b>MacOS</b></td>
+        <td class='file_name'>cypher-notepad-macosx.pkg</td>
+        <td>36.9MB</td>
+        <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/cypher-notepad-macosx.pkg'>Download</a></td>
+        <td><a href='https://www.virustotal.com/gui/file/31d9d893b65d3680fe0fa8b1b3de9ebc30f8271bf33e5c40b8bb5fdb6f40807a/summary'><i class="icon ion-md-checkmark-circle icon-virus-free"></i></a></td>
     </tr>
     <tr>
         <td class='header_col'><b>-</b></td>
@@ -188,8 +199,8 @@
         <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v2.1/cypher-notepad-2.1-linux.deb'>Download</a></td>
     </tr>
     <tr>
-        <td class='header_col'><b>Mac</b></td>
-        <td class='file_name'>-</td>
+        <td class='header_col'><b>MacOS</b></td>
+        <td class='file_name'>Sorry, Not Supported in this version.</td>
         <td>-</td>
         <td>-</td>
     </tr>
