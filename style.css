@@ -482,7 +482,7 @@ hr {
   
 }
 
-#download_windows, #download_linux{
+#download_windows, #download_linux, #download_macos{
   margin: 15px;
   text-decoration: none;
 }
