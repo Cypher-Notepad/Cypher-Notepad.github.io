@@ -200,7 +200,7 @@
     </tr>
     <tr>
         <td class='header_col'><b>MacOS</b></td>
-        <td class='file_name'>Sorry, Not Supported in this version.</td>
+        <td class='file_name'>Not Supported.</td>
         <td>-</td>
         <td>-</td>
     </tr>
