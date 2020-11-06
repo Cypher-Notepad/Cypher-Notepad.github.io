@@ -1,11 +1,7 @@
 # Group 1
 User-agent: *
+Allow: /
 Disallow: /404
 Disallow: /version
-
-# Group 2
-User-agent: *
-Allow: /
-Allow: /index.js
 
 Sitemap: https://cyphernotepad.com/sitemap.xml
