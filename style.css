@@ -82,7 +82,7 @@ input, button {
   border: 1px solid transparent;
 }
 
-.main-div button:hover, .loggedin-div button:hover, .navbar button:hover{
+.main-div button:hover, .loggedin-div button:hover, .navbar button:hover {
   background: #fff;
   color:#68217A;
   border: 1px solid #9730b0;
@@ -335,6 +335,10 @@ hr {
 
 #intro_tab_document{
   margin-top: 15px;
+}
+
+#intro_sponsor{
+  margin-top:10px;
 }
 
 .intro_tab_detail{
@@ -590,6 +594,18 @@ hr {
   #intro_tab_img{
     width: 40%;
     height: auto;
+  }
+}
+
+@media (max-width: 912px){
+  #nav_sponsor {
+    display: none;
+  }
+}
+
+@media (min-width: 912px){
+  #intro_sponsor {
+    display: none;
   }
 }
 
