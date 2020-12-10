@@ -1,6 +1,6 @@
 # Installation
 
-?> **This installation guide is for version 3.0**. If you want to install previous versions, [click here](https://cypher-notepad.github.io/wiki/#/installation_previous).
+?> **This installation guide is for the latest version(3.0)**. If you want to install previous versions, [click here](https://cypher-notepad.github.io/wiki/#/installation_previous).
 
 ## <i class="fab fa-windows"></i> Windows
 
