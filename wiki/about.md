@@ -37,3 +37,77 @@ It uses hybrid encryption, both RSA and AES:
 Then, your RSA secret key is saved internally. 
 
 ![algorithm](https://cypher-notepad.github.io/resource/algorithm.png) 
+
+
+<hr>
+
+<p align='center' style='font-size:25px;'>
+  <span><b>Awards</b></span>
+</p>
+
+<p align='center'>
+  <a href='https://cypher-notepad.software.informer.com/'><img height="200"  align='center' style="height:150px;" src="https://img.informer.com/awards/si-award-clean.png" alt="Cypher Notepad" /></a>
+  <a href='https://maddownload.com/business-productivity/text-editors/cypher-notepad/'><img height="200"  align='center' style="height:169px;" src="https://cypher-notepad.github.io/resource/award_maddownload.jpg" alt="Cypher Notepad" /></a>
+</p>
+
+<hr>
+
+
+<p align='center' style='font-size:25px;'>
+  <span><b>Reviews</b></span>
+</p>
+
+<p align='center'>
+<span>
+  <img src='https://cypher-notepad.github.io/resource/icon_softpedia.ico' style="height:20px;"/>
+  <a href='https://www.softpedia.com/get/Office-tools/Text-editors/Cypher-Notepad.shtml'>
+    Softpedia
+  </a>&nbsp;&nbsp;&nbsp;
+  <img src='https://cypher-notepad.github.io/resource/icon_thewindowsclub.ico' style="height:20px;"/>
+  <a href='https://www.thewindowsclub.com/cypher-notepad-encrypt-your-text-documents'>
+    TheWindowsClub
+  </a>&nbsp;&nbsp;&nbsp;
+  <img src='https://cypher-notepad.github.io/resource/icon_redeszone.webp' style="height:20px;"/>
+  <a href='https://www.redeszone.net/tutoriales/seguridad/cypher-notepad-cifrar-archivos-texto/'>
+    RedesZone
+  </a>
+</span>
+<br>
+<span>
+  <img src='https://cypher-notepad.github.io/resource/icon_filecroco.png' style="height:20px;"/>
+  <a href='https://www.filecroco.com/download-cypher-notepad/'>
+    FileCroco
+  </a>&nbsp;&nbsp;&nbsp;
+  <img src='https://cypher-notepad.github.io/resource/icon_finestsoft.ico' style="height:20px;"/>
+  <a href='https://finestsoft.com/en/1711/cypher-notepad'>
+    FinestSoft
+  </a>&nbsp;&nbsp;&nbsp;
+  <img src='https://cypher-notepad.github.io/resource/icon_freewarefiles.ico' style="height:20px;"/>
+  <a href='https://www.freewarefiles.com/Cypher-Notepad-_program_117555.html'>
+    FreewareFiles
+  </a>
+</span>
+<br>
+<span>
+  <img src='https://cypher-notepad.github.io/resource/icon_maddownload.png' style="height:20px;"/>
+  <a href='https://maddownload.com/business-productivity/text-editors/cypher-notepad/'>
+    Maddownload
+  </a>&nbsp;&nbsp;&nbsp;
+  <img src='https://cypher-notepad.github.io/resource/icon_majorgeeks.ico' style="height:20px;"/>
+  <a href='https://m.majorgeeks.com/files/details/cypher_notepad.html'>
+    MajorGeeks
+  </a>&nbsp;&nbsp;&nbsp;
+  <img src='https://cypher-notepad.github.io/resource/icon_cypherx.jpg' style="height:20px;"/>
+  <a href='https://www.youtube.com/watch?v=M4Scd82CtEA'>
+    CypherX
+  </a>
+</span>
+</p>
+
+
+
+
+
+
+
+
