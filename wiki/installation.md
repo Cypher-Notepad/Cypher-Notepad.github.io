@@ -35,8 +35,6 @@
 
 ## <i class="fab fa-linux"></i> Linux
 
-* **Requirement: Java Runtime Environment (JRE) 1.8 or higher**
-
 <!-- tabs:start -->
 
 #### ** DEB **
@@ -83,18 +81,26 @@ bash /opt/CypherNotepad/scripts/remove_bundled_jre.sh
 
 ## <i class="fab fa-apple"></i> MacOS
 
-* **Requirement: Java Runtime Environment (JRE) 1.8 or higher**
-* Please download the `.pkg` file below and follow the instructions inside. 
+* Please download the appropriate `.dmg` file for your Mac below:
+* **Don't know which Mac you have?** [Find out if your Mac has an Intel processor or Apple silicon](https://support.apple.com/en-us/116943) 
 <table class='download_table'>
     <tr>
+        <th>Mac Type</th>
         <th>File Name</th>
         <th>File Size</th>
         <th>Download</th>
     </tr>
     <tr>
-        <td>cypher-notepad-macosx.pkg</td>
+        <td><b>Intel Mac</b></td>
+        <td>cypher-notepad-3.0-intel.dmg</td>
         <td>36.9MB</td>
-        <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/cypher-notepad-macosx.pkg'>Download</a></td>
+        <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/cypher-notepad-3.0-intel.dmg'>Download</a></td>
+    </tr>
+    <tr>
+        <td><b>Apple Silicon Mac</b></td>
+        <td>cypher-notepad-3.0-apple-silicon.dmg</td>
+        <td>36.9MB</td>
+        <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/cypher-notepad-3.0-apple-silicon.dmg'>Download</a></td>
     </tr>
 </table>
 
