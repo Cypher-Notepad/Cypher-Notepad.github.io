@@ -93,13 +93,13 @@ bash /opt/CypherNotepad/scripts/remove_bundled_jre.sh
     <tr>
         <td><b>Intel Mac</b></td>
         <td>cypher-notepad-3.0-intel.dmg</td>
-        <td>36.9MB</td>
+        <td>28.2MB</td>
         <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/cypher-notepad-3.0-intel.dmg'>Download</a></td>
     </tr>
     <tr>
         <td><b>Apple Silicon Mac</b></td>
         <td>cypher-notepad-3.0-apple-silicon.dmg</td>
-        <td>36.9MB</td>
+        <td>26.9MB</td>
         <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/cypher-notepad-3.0-apple-silicon.dmg'>Download</a></td>
     </tr>
 </table>

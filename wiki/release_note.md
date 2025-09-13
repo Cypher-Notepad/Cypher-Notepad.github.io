@@ -81,6 +81,28 @@
 <br>
 
 <details>
+<summary> cypher-notepad-3.0-intel.dmg </summary>
+<ul>
+ <li> MD5: 9f95068dea26b5aa531ab365c2fcb2c6 </li>
+ <li> SHA-1: 8f631d4ce32aeeaadc336a7e18ae6ece091aad8a </li>
+ <li> <a href='https://www.virustotal.com/gui/file/8f35e5d6c6dbec2cf3c44323df12a1c5f119283b4f7c2e98c529efc0e8aa0e83/summary'>Safe from the virus</a> </li>
+</ul>
+</details>
+
+<br>
+
+<details>
+<summary> cypher-notepad-3.0-apple-silicon.dmg </summary>
+<ul>
+ <li> MD5: 7d91fe8238244a9d5e7b5ac5f81c4695 </li>
+ <li> SHA-1: 1f19a0924492f456f448f8522a76b1c66ee21958 </li>
+ <li> <a href='https://www.virustotal.com/gui/file/765e7a7e621ce588d9a6a4f54375ffaff24223e4f7875d13dbd6876757a47d74/summary'>Safe from the virus</a> </li>
+</ul>
+</details>
+
+<br>
+
+<details>
 <summary> Cypher-Notepad-3.0-release.jar </summary>
 <ul>
  <li> MD5: e94336da762429371b09e19706f8d932 </li>
@@ -134,11 +156,23 @@
         <td><a href='https://www.virustotal.com/gui/file/0c509c71c745097b566c194d66255a3c6003ab0c108ad637d25a24c0c36e7832/summary'><i class="icon ion-md-checkmark-circle icon-virus-free"></i></a></td>
     </tr>
     <tr>
-        <td class='header_col'><b>MacOS</b></td>
-        <td class='file_name'>cypher-notepad-macosx.pkg</td>
+        <td class='header_col' rowspan='3'><b>MacOS</b></td>
+        <td class='file_name'>(deprecated)cypher-notepad-macosx.pkg</td>
         <td>36.9MB</td>
-        <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/cypher-notepad-macosx.pkg'>Download</a></td>
+        <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/deprecated.cypher-notepad-macosx.pkg'>Download</a></td>
         <td><a href='https://www.virustotal.com/gui/file/31d9d893b65d3680fe0fa8b1b3de9ebc30f8271bf33e5c40b8bb5fdb6f40807a/summary'><i class="icon ion-md-checkmark-circle icon-virus-free"></i></a></td>
+    </tr>
+    <tr>
+        <td class='file_name'>cypher-notepad-3.0-intel.dmg</td>
+        <td>28.2MB</td>
+        <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/cypher-notepad-3.0-intel.dmg'>Download</a></td>
+        <td><a href='https://www.virustotal.com/gui/file/8f35e5d6c6dbec2cf3c44323df12a1c5f119283b4f7c2e98c529efc0e8aa0e83/summary'><i class="icon ion-md-checkmark-circle icon-virus-free"></i></a></td>
+    </tr>
+    <tr>
+        <td class='file_name'>cypher-notepad-3.0-apple-silicon.dmg</td>
+        <td>26.9MB</td>
+        <td><i class="fas fa-download"></i> <a href='https://github.com/Cypher-Notepad/Cypher-Notepad/releases/download/v3.0/cypher-notepad-3.0-apple-silicon.dmg'>Download</a></td>
+        <td><a href='https://www.virustotal.com/gui/file/765e7a7e621ce588d9a6a4f54375ffaff24223e4f7875d13dbd6876757a47d74/summary'><i class="icon ion-md-checkmark-circle icon-virus-free"></i></a></td>
     </tr>
     <tr>
         <td class='header_col'><b>-</b></td>
