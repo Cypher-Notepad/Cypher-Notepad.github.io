@@ -105,6 +105,7 @@ bash /opt/CypherNotepad/scripts/remove_bundled_jre.sh
 </table>
 
 <i class="icon ion-md-checkmark-circle icon-virus-free"></i> <a href='https://cypher-notepad.github.io/wiki/#/release_note' class='span-virus-free'>100% Virus Free!</a><br>
+(2025-09-13, Version 3.0.0.0; built on JDK21; @LeeDongGeon1996)<br>
 (2020-10-19, Version 3.0.0.0; @LeeDongGeon1996)
 
 
